@@ -1,3 +1,10 @@
+#!/usr/bin/python2
+
+from os import path
+import sys
+sys.path.append(path.abspath('..'))
+sys.path.append(path.abspath('./../../..'))
+
 from ziwm.model.base import Model
 
 import numpy as np

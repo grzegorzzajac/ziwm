@@ -1,11 +1,12 @@
 from abc import ABCMeta, abstractmethod
 
-class Dataset(metaclass=ABCMeta):
+class Dataset(object):
     '''
     Base class for a abstraction over dataset.
     It should be used for loading dataset from files and extracting features.
     '''
-    
+    __metaclass__=ABCMeta   
+
     @staticmethod
     def all_datasets():
         '''

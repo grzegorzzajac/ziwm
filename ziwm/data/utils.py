@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python2
 
 import numpy as np
 from sklearn.cross_validation import train_test_split

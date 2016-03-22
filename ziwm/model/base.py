@@ -1,9 +1,10 @@
 from abc import ABCMeta, abstractmethod
 
-class Model(metaclass=ABCMeta):
+class Model(object):
     '''
     Base class for predictive models
     '''
+    __metaclass__ = ABCMeta
 
     @staticmethod
     def all_models():

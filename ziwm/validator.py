@@ -1,4 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/python2
+
+from os import path
+import sys
+sys.path.append(path.abspath('..'))
 
 from ziwm.model.classifier.mock import MockClassifier
 import numpy as np
