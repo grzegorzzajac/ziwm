@@ -1,10 +1,12 @@
 #!/usr/bin/python2
 
-from os import path
 import sys
-from ziwm.model.base import Model
+from os import path
+
 import numpy as np
 
+import elm
+from ziwm.model.base import Model
 
 sys.path.append(path.abspath('..'))
 sys.path.append(path.abspath('./../../..'))
@@ -32,6 +34,21 @@ class ExtremeLearningMachine(Model):
         '''
         Description...
         '''
+
+        # create a classifier
+        elmk = elm.ELMKernel()
+
+        # search for best parameter for this dataset
+        # define "kfold" cross-validation method, "accuracy" as a objective function
+        # to be optimized and perform 10 searching steps.
+        # best parameters will be saved inside 'elmk' object
+        #elmk.search_param(data, cv="kfold", of="accuracy", eval=10)
+
+        #train and test
+        # results are Error objects
+        #tr_result = elmk.train(tr_set)
+        print X
+        print Y
         pass
 
 if __name__ == "__main__":
