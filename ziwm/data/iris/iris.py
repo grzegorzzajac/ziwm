@@ -1,6 +1,5 @@
 from ziwm.data.dataset.base import Dataset
 import elm
-import os
 import sys
 from os import path
 
