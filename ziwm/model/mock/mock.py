@@ -11,7 +11,7 @@ import numpy as np
 
 class MockClassifier(Model):
     '''
-    A simple, mock classifier. It does not learn.
+    A simple, mock mock. It does not learn.
     Always returns '1' if all features are equal to '1'
     and '0' otherwise
     '''

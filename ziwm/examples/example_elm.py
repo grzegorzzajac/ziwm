@@ -1,5 +1,5 @@
 from ziwm.data.iris.iris import IrisDataset
-from ziwm.model.pelm.pelm import ExtremeLearningMachine
+from ziwm.model.elmk.elmk import ExtremeLearningMachine
 from ziwm.data.utils import split_dataset
 from ziwm.validator import model_score
 import sys
@@ -10,8 +10,10 @@ sys.path.append(path.abspath('..'))
 
 model = ExtremeLearningMachine()
 dataset = IrisDataset()
+
 X, Y = dataset.load()
 X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
+
 model.train(X_train, Y_train)
 
 print Y_test

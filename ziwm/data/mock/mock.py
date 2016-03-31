@@ -1,10 +1,10 @@
-from ziwm.data.dataset.base import Dataset
+from ziwm.data.mock.base import Dataset
 import numpy as np
 
 
 class MockDataset(Dataset):
     '''
-    A simple, meaningless, mock dataset.
+    A simple, meaningless, mock mock.
     '''
     
     def name(self):
