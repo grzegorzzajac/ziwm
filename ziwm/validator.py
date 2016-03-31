@@ -4,9 +4,9 @@ from os import path
 import sys
 sys.path.append(path.abspath('..'))
 
-from ziwm.model.classifier.mock import MockClassifier
+from ziwm.model.mock.mock import MockClassifier
 import numpy as np
-from ziwm.data.dataset.mock import MockDataset
+from ziwm.data.mock.mock import MockDataset
 from ziwm.data.utils import split_dataset
 
 def __average_square_error(Y1, Y2):
@@ -32,7 +32,7 @@ def __classification_error(Y_predicted, Y):
 
 def model_score(model, X_test, Y_test, problem_type):
     '''
-    Calculates performance score of a model on a given test set
+    Calculates performance score of a model on a given examples set
     '''
     Y_predicted = model.predict(X_test)
     assert Y_predicted.shape == Y_test.shape

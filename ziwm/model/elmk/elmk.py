@@ -12,9 +12,11 @@ class ExtremeLearningMachine(Model):
     '''
     Description...
     '''
-    __elmk = elm.ELMKernel()
+    def __init__(self):
+        self.__elmk = elm.ELMKernel()
 
-    def name(self):
+    @staticmethod
+    def name():
         return "Extreme Learning Machine"
 
     def predict(self, x_test):
@@ -23,7 +25,8 @@ class ExtremeLearningMachine(Model):
         '''
         zero_x_test = np.hstack((np.zeros((x_test.shape[0], 1)), x_test))
         result = self.__elmk.test(zero_x_test).predicted_targets
-        return abs(result.round(0))
+        #return abs(result.round(0))
+        return result
 
     def train(self, x, y):
         '''

@@ -12,14 +12,15 @@ class Model(object):
         Returns objects of all available predictive model classes
         (should be subclasses of Model class)
         '''
-        from ziwm.model.classifier.mock import MockClassifier
+        from ziwm.model.mock.mock import MockClassifier
 
         models = []
         models.append(MockClassifier())
         return models
-    
+
+    @staticmethod
     @abstractmethod
-    def name(self):
+    def name():
         '''
         Arbitrary name of a given model
         '''
@@ -35,7 +36,7 @@ class Model(object):
     @abstractmethod
     def train(self, X, Y):
         '''
-        Train model with a given dataset
+        Train model with a given mock
         X : 
             Feature matrix
         Y : 

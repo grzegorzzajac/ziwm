@@ -1,14 +1,15 @@
-from ziwm.data.dataset.base import Dataset
+from ziwm.data.mock.base import Dataset
 import elm
 import sys
 from os import path
+import os
 
-sys.path.append(path.abspath('../..'))
+sys.path.append(path.abspath('../../..'))
 
 
 class IrisDataset(Dataset):
     '''
-    Iris dataset: https://raw.githubusercontent.com/acba/pelm/develop/tests/data/iris.data
+    Iris dataset: https://raw.githubusercontent.com/acba/elmk/develop/tests/data/iris.data
     '''
 
     def name(self):
@@ -18,7 +19,7 @@ class IrisDataset(Dataset):
         return "classification"
 
     def load(self):
-        data = elm.read("data/iris/iris.data")
+        data = elm.read("../../ziwm/data/iris/iris.data")
         x = data[:, 1:]
         y = data[:, 0]
         return x, y

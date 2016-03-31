@@ -5,7 +5,7 @@ import sys
 sys.path.append(path.abspath('..'))
 
 from ziwm.model.base import Model
-from ziwm.data.dataset.base import Dataset
+from ziwm.data.mock.base import Dataset
 from ziwm.data.utils import split_dataset
 from ziwm.validator import model_score
 
@@ -19,14 +19,14 @@ if __name__ == '__main__':
     models = Model.all_models()
     
     # print output header
-    print("dataset,model,score")
+    print("mock,model,score")
 
     for dataset in datasets:
 
-        # load dataset
+        # load mock
         X, Y = dataset.load()
         
-        # split dataset into train and test sets
+        # split mock into train and examples sets
         X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
         
         # evaluate models
