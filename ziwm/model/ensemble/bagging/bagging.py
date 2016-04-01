@@ -5,7 +5,7 @@ from ziwm.model.ensemble.ensemble import Ensemble
 
 class Bagging(Ensemble):
     '''
-    Description...
+    Bagging description...
     '''
 
     def __init__(self, base_classifiers, voting_system):
@@ -23,14 +23,14 @@ class Bagging(Ensemble):
         for member in self.base_classifiers:
             result = member.predict(x_test)
             results.append(result)
-        return np.average(results, axis=0)
-        #return int(np.average(results, axis=0).round(0))
+        print 'partial results:\n', results
+        return self.voting_system.vote(results)
 
     def train(self, x, y):
         '''
-        Description...
+        Mozna przyspieszyc wykonujac search_param jednokrotnie
+        i trenujac bezposrednio metoda member.extreme_learning_machine.train
         '''
-        # mozna przyspieszyc wykonujac search_param jednokrotnie i trenujac bezposrednio metoda member.extreme_learning_machine.train
         for member in self.base_classifiers:
             new_x, new_y = self.__create_individual_dataset(x, y)
             member.train(new_x, new_y)

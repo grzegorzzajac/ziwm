@@ -10,9 +10,10 @@ X, Y = dataset.load()
 X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
 
 model.train(X_train, Y_train)
+prediction = model.predict(X_test)
 
 print 'expected:\n', Y_test
-print 'predicted:\n', round_result(model.predict(X_test))
+print 'predicted:\n', prediction
 
 #score = model_score(model, X_test, Y_test, problem_type='classification')
 #print score

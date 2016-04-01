@@ -22,7 +22,7 @@ class RandomNetworks(BaseClassifier):
 
     @staticmethod
     def name():
-        return "Boosting"
+        return "Random Networks"
 
     def predict(self, x_test):
         '''
@@ -32,17 +32,16 @@ class RandomNetworks(BaseClassifier):
         for member in self.__committee:
             result = member.predict(x_test)
             results.append(result)
-        self.__majority_voting(results)
-        return np.average(results, axis=0)
-        #return int(np.average(results, axis=0).round(0))
+        return self.__majority_voting(results)
 
     def train(self, x, y):
         '''
-        Description...
+        Mozna przyspieszyc wykonujac search_param jednokrotnie
+        i trenujac bezposrednio metoda member.extreme_learning_machine.train
         '''
-        # mozna przyspieszyc wykonujac search_param jednokrotnie i trenujac bezposrednio metoda member.extreme_learning_machine.train
         for member in self.__committee:
             member.train(x, y)
+
 
     @staticmethod
     def __majority_voting(results):
