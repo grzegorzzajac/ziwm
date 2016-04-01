@@ -14,7 +14,7 @@ for i in range(5):
     elm.append(ExtremeLearningMachine())
 am = ArithmeticMean()
 mv = MajorityVoting()
-model = Bagging(elm, mv)
+model = Bagging(elm, am)
 soybean = SoybeanSmall()
 X, Y = soybean.load()
 X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
@@ -25,8 +25,8 @@ model.train(X_train, Y_train)
 #print 'expected:\n', Y_test
 #print 'predicted:\n', prediction
 
-#score = model_score(model, X_test, Y_test, problem_type='classification')
-#print score
+score = model_score(model, X_test, Y_test, problem_type='classification')
+print score
 
 prediction = model.predict(X_test)
 

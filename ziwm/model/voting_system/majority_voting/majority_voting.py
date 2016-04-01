@@ -21,5 +21,5 @@ class MajorityVoting(VotingSystem):
             counts = np.bincount(rounded_row)
             voting_result.append(np.argmax(counts))
         print 'wyniki glosowania: ', voting_result
-        return voting_result
+        return np.asarray(voting_result)
 
