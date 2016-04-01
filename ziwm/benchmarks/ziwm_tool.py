@@ -5,7 +5,7 @@ from os import path
 
 sys.path.append(path.abspath('..'))
 
-from ziwm.model.base_classifier.baseclassifier import BaseClassifier
+from ziwm.model.base_classifier.classifier import Classifier
 from ziwm.data.mock.base import Dataset
 from ziwm.data.utils import split_dataset
 from ziwm.benchmarks.validator import model_score
@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     # load all possible models and datasets
     datasets = Dataset.all_datasets()
-    models = BaseClassifier.all_models()
+    models = Classifier.all_models()
     
     # print output header
     print("mock_classifier,model,score")

@@ -1,8 +1,8 @@
-from ziwm.model.base_classifier.baseclassifier import BaseClassifier
+from ziwm.model.base_classifier.classifier import Classifier
 from abc import abstractmethod
 
 
-class Ensemble(BaseClassifier):
+class Ensemble(Classifier):
     '''
     Base class for all ensembles
     '''

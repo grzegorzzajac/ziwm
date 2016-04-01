@@ -6,11 +6,11 @@ from os import path
 sys.path.append(path.abspath('..'))
 sys.path.append(path.abspath('./../../..'))
 
-from ziwm.model.base_classifier.baseclassifier import BaseClassifier
+from ziwm.model.base_classifier.classifier import Classifier
 
 import numpy as np
 
-class MockClassifier(BaseClassifier):
+class MockClassifier(Classifier):
     '''
     A simple, mock_classifier mock_classifier. It does not learn.
     Always returns '1' if all features are equal to '1'
