@@ -8,7 +8,7 @@ def split_dataset(X, Y):
     Split mock_classifier into train and examples set.
     Returned mock_classifier is ordered randomly but always the same.
     '''
-    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.30, random_state=1993)
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=1993)
     return X_train, X_test, Y_train, Y_test
 
     
