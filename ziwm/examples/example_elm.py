@@ -1,6 +1,5 @@
 import sys
 from os import path
-
 from ziwm.benchmarks.validator import model_score
 from ziwm.data.iris.iris import IrisDataset
 from ziwm.data.utils import split_dataset

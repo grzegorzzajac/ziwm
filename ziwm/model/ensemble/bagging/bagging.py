@@ -1,24 +1,15 @@
 import random
 import numpy as np
-from ziwm.model.base_classifier.baseclassifier import BaseClassifier
-from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
+from ziwm.model.ensemble.ensemble import Ensemble
 
 
-class Bagging(BaseClassifier):
+class Bagging(Ensemble):
     '''
     Description...
     '''
 
-    def __init__(self, committee_size=3):
-        '''
-        Description...
-        '''
-        self.__committee = []
-        if committee_size < 2:
-            committee_size = 2
-        for member in range(committee_size):
-            member = ExtremeLearningMachine()
-            self.__committee.append(member)
+    def __init__(self, base_classifiers, voting_system):
+        super(Bagging, self).__init__(base_classifiers, voting_system)
 
     @staticmethod
     def name():
@@ -29,7 +20,7 @@ class Bagging(BaseClassifier):
         Description...
         '''
         results = []
-        for member in self.__committee:
+        for member in self.base_classifiers:
             result = member.predict(x_test)
             results.append(result)
         return np.average(results, axis=0)
@@ -40,7 +31,7 @@ class Bagging(BaseClassifier):
         Description...
         '''
         # mozna przyspieszyc wykonujac search_param jednokrotnie i trenujac bezposrednio metoda member.extreme_learning_machine.train
-        for member in self.__committee:
+        for member in self.base_classifiers:
             new_x, new_y = self.__create_individual_dataset(x, y)
             member.train(new_x, new_y)
 

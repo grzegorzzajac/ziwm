@@ -2,12 +2,15 @@ from ziwm.data.iris.iris import IrisDataset
 from ziwm.data.utils import split_dataset
 from ziwm.model.ensemble.bagging.bagging import Bagging
 from ziwm.model.utils import round_result
+from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
 
-model = Bagging(2)
+elm = [ExtremeLearningMachine()] * 3
+model = Bagging(elm, 5)
 dataset = IrisDataset()
 
 X, Y = dataset.load()
 X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
+
 
 model.train(X_train, Y_train)
 
