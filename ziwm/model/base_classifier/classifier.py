@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class BaseClassifier(object):
+class Classifier(object):
     '''
     Base class for predictive models
     '''
