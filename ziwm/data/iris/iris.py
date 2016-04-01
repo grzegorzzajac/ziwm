@@ -9,7 +9,7 @@ sys.path.append(path.abspath('../../..'))
 
 class IrisDataset(Dataset):
     '''
-    Iris dataset: https://raw.githubusercontent.com/acba/elmk/develop/tests/data/iris.data
+    Iris dataset: https://raw.githubusercontent.com/acba/extreme_learning_machine/develop/tests/data/iris.data
     '''
 
     def name(self):

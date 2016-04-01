@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-class Model(object):
+class BaseClassifier(object):
     '''
     Base class for predictive models
     '''
@@ -12,7 +12,7 @@ class Model(object):
         Returns objects of all available predictive model classes
         (should be subclasses of Model class)
         '''
-        from ziwm.model.mock.mock import MockClassifier
+        from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
 
         models = []
         models.append(MockClassifier())
@@ -36,7 +36,7 @@ class Model(object):
     @abstractmethod
     def train(self, X, Y):
         '''
-        Train model with a given mock
+        Train model with a given mock_classifier
         X : 
             Feature matrix
         Y : 

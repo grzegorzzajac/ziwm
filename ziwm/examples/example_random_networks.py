@@ -1,9 +1,9 @@
 from ziwm.data.iris.iris import IrisDataset
 from ziwm.data.utils import split_dataset
-from ziwm.model.ensemble.bagging.bagging import Bagging
+from ziwm.model.ensemble.randomnetworks.random_networks import RandomNetworks
 from ziwm.model.utils import round_result
 
-model = Bagging(2)
+model = RandomNetworks(2)
 dataset = IrisDataset()
 
 X, Y = dataset.load()

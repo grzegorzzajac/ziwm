@@ -1,10 +1,11 @@
 #!/usr/bin/python2
 
-from os import path
 import sys
+from os import path
+
 sys.path.append(path.abspath('..'))
 
-from ziwm.model.mock.mock import MockClassifier
+from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
 import numpy as np
 from ziwm.data.mock.mock import MockDataset
 from ziwm.data.utils import split_dataset

@@ -1,13 +1,14 @@
 #!/bin/usr/python2
 
-from os import path
 import sys
+from os import path
+
 sys.path.append(path.abspath('..'))
 
-from ziwm.model.base import Model
+from ziwm.model.base_classifier.baseclassifier import BaseClassifier
 from ziwm.data.mock.base import Dataset
 from ziwm.data.utils import split_dataset
-from ziwm.validator import model_score
+from ziwm.benchmarks.validator import model_score
 
 if __name__ == '__main__':
     '''
@@ -16,17 +17,17 @@ if __name__ == '__main__':
 
     # load all possible models and datasets
     datasets = Dataset.all_datasets()
-    models = Model.all_models()
+    models = BaseClassifier.all_models()
     
     # print output header
-    print("mock,model,score")
+    print("mock_classifier,model,score")
 
     for dataset in datasets:
 
-        # load mock
+        # load mock_classifier
         X, Y = dataset.load()
         
-        # split mock into train and examples sets
+        # split mock_classifier into train and examples sets
         X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
         
         # evaluate models

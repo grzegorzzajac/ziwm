@@ -4,7 +4,7 @@ import numpy as np
 
 class MockDataset(Dataset):
     '''
-    A simple, meaningless, mock mock.
+    A simple, meaningless, mock_classifier mock_classifier.
     '''
     
     def name(self):

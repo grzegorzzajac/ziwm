@@ -2,15 +2,15 @@ from abc import ABCMeta, abstractmethod
 
 class Dataset(object):
     '''
-    Base class for a abstraction over mock.
-    It should be used for loading mock from files and extracting features.
+    Base class for a abstraction over mock_classifier.
+    It should be used for loading mock_classifier from files and extracting features.
     '''
     __metaclass__=ABCMeta   
 
     @staticmethod
     def all_datasets():
         '''
-        Returns objects of all available mock classes
+        Returns objects of all available mock_classifier classes
         (should be subclasses of Dataset class).
         '''
         from ziwm.data.mock.mock import MockDataset
@@ -30,13 +30,13 @@ class Dataset(object):
     @abstractmethod
     def name(self):
         '''
-        Arbitrary name of a given mock
+        Arbitrary name of a given mock_classifier
         '''
         pass
     
     @abstractmethod
     def load(self):
         '''
-        Load feature matrix and labels vector from a mock
+        Load feature matrix and labels vector from a mock_classifier
         '''
         pass

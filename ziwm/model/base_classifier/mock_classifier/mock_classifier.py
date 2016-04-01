@@ -1,17 +1,18 @@
 #!/usr/bin/python2
 
-from os import path
 import sys
+from os import path
+
 sys.path.append(path.abspath('..'))
 sys.path.append(path.abspath('./../../..'))
 
-from ziwm.model.base import Model
+from ziwm.model.base_classifier.baseclassifier import BaseClassifier
 
 import numpy as np
 
-class MockClassifier(Model):
+class MockClassifier(BaseClassifier):
     '''
-    A simple, mock mock. It does not learn.
+    A simple, mock_classifier mock_classifier. It does not learn.
     Always returns '1' if all features are equal to '1'
     and '0' otherwise
     '''
@@ -32,7 +33,7 @@ class MockClassifier(Model):
     
     def train(self, X, Y):
         '''
-        Do nothing - it is just a mock
+        Do nothing - it is just a mock_classifier
         '''
         pass
     

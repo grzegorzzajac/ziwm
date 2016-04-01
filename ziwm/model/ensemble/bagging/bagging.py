@@ -1,21 +1,19 @@
-import sys
-from os import path
-import numpy as np
-from ziwm.model.base import Model
-from ziwm.model.elmk.elmk import ExtremeLearningMachine
 import random
+import numpy as np
+from ziwm.model.base_classifier.baseclassifier import BaseClassifier
+from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
 
 
-class Bagging(Model):
+class Bagging(BaseClassifier):
     '''
     Description...
     '''
-    __committee = []
 
     def __init__(self, committee_size=3):
         '''
         Description...
         '''
+        self.__committee = []
         if committee_size < 2:
             committee_size = 2
         for member in range(committee_size):
@@ -41,7 +39,7 @@ class Bagging(Model):
         '''
         Description...
         '''
-        # mozna przyspieszyc wykonujac search_param jednokrotnie i trenujac bezposrednio metoda member.elmk.train
+        # mozna przyspieszyc wykonujac search_param jednokrotnie i trenujac bezposrednio metoda member.extreme_learning_machine.train
         for member in self.__committee:
             new_x, new_y = self.__create_individual_dataset(x, y)
             member.train(new_x, new_y)
