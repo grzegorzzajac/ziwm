@@ -26,7 +26,7 @@ class SoybeanLarge(Dataset):
     '''
 
     def name(self):
-        return "Soybean Small dataset"
+        return "Soybean Large dataset"
 
     def problem_type(self):
         return "classification"

@@ -14,12 +14,12 @@ class MajorityVoting(VotingSystem):
     @staticmethod
     def vote(results):
         results_transposed = map(list, zip(*results))
-        print 'rezulataty transponowane: ', results_transposed
+        #print 'rezulataty transponowane: ', results_transposed
         voting_result = []
         for row in results_transposed:
             rounded_row = [abs(int(round(n, 0))) for n in row]
             counts = np.bincount(rounded_row)
             voting_result.append(np.argmax(counts))
-        print 'wyniki glosowania: ', voting_result
+        #print 'wyniki glosowania: ', voting_result
         return np.asarray(voting_result)
 
