@@ -1,5 +1,7 @@
-from ziwm.model.base_classifier.classifier import Classifier
+#!/usr/bin/python2.7
+
 from abc import abstractmethod
+from ziwm.model.base_classifier.classifier import Classifier
 
 
 class Ensemble(Classifier):

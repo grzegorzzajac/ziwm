@@ -1,13 +1,8 @@
-import sys
-from os import path
+#!/usr/bin/python2.7
 
 import elm
 import numpy as np
-
 from ziwm.model.base_classifier.classifier import Classifier
-
-sys.path.append(path.abspath('..'))
-sys.path.append(path.abspath('./../../..'))
 
 
 class ExtremeLearningMachine(Classifier):

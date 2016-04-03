@@ -1,11 +1,10 @@
-import sys
-from os import path
+#!/usr/bin/python2.7
+
 from ziwm.benchmarks.validator import model_score
 from ziwm.data.iris.iris import IrisDataset
 from ziwm.data.utils import split_dataset
 from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
 
-sys.path.append(path.abspath('..'))
 
 model = ExtremeLearningMachine()
 dataset = IrisDataset()

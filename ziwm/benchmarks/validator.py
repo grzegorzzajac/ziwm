@@ -1,12 +1,7 @@
-#!/usr/bin/python2
+#!/usr/bin/python2.7
 
-import sys
-from os import path
-
-sys.path.append(path.abspath('..'))
-
-from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
 import numpy as np
+from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
 from ziwm.data.mock.mock import MockDataset
 from ziwm.data.utils import split_dataset
 

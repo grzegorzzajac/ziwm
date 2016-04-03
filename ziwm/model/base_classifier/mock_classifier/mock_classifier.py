@@ -1,14 +1,8 @@
-#!/usr/bin/python2
-
-import sys
-from os import path
-
-sys.path.append(path.abspath('..'))
-sys.path.append(path.abspath('./../../..'))
-
-from ziwm.model.base_classifier.classifier import Classifier
+#!/usr/bin/python2.7
 
 import numpy as np
+from ziwm.model.base_classifier.classifier import Classifier
+
 
 class MockClassifier(Classifier):
     '''

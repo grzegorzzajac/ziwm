@@ -1,13 +1,10 @@
-import sys
-from os import path
+#!/usr/bin/python2.7
 
 import numpy as np
 from sklearn.cross_validation import train_test_split
-
 from ziwm.data.iris.iris import IrisDataset
 from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
 
-sys.path.append(path.abspath('..'))
 
 model1 = ExtremeLearningMachine()
 model2 = ExtremeLearningMachine()
