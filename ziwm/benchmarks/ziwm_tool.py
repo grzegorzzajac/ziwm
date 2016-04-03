@@ -1,9 +1,4 @@
-#!/bin/usr/python2
-
-import sys
-from os import path
-
-sys.path.append(path.abspath('..'))
+#!/usr/bin/python2.7
 
 from ziwm.model.base_classifier.classifier import Classifier
 from ziwm.data.mock.base import Dataset

@@ -1,3 +1,5 @@
+#!/usr/bin/python2.7
+
 import random
 import numpy as np
 from ziwm.model.ensemble.ensemble import Ensemble

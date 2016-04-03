@@ -1,10 +1,8 @@
-from ziwm.data.mock.base import Dataset
-import elm
-import sys
-from os import path
-import os
+#!/usr/bin/python2.7
 
-sys.path.append(path.abspath('../../..'))
+import elm
+from os import path
+from ziwm.data.mock.base import Dataset
 
 
 class TickTackToeDataset(Dataset):
@@ -43,7 +41,8 @@ class TickTackToeDataset(Dataset):
         return "classification"
 
     def load(self):
-        data = elm.read("../../ziwm/data/tic_tac_toe/tic_tac_toe.data")
+        data_path = path.join(path.dirname(path.abspath(__file__)), "tic_tac_toe.data")
+        data = elm.read(data_path)
         x = data[:, 1:]
         y = data[:, 0]
         return x, y

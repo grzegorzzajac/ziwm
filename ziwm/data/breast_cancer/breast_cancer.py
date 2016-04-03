@@ -1,10 +1,8 @@
-from ziwm.data.mock.base import Dataset
-import elm
-import sys
-from os import path
-import os
+#!/usr/bin/python2.7
 
-sys.path.append(path.abspath('../../..'))
+import elm
+from os import path
+from ziwm.data.mock.base import Dataset
 
 
 class BreastCancer(Dataset):
@@ -37,7 +35,8 @@ class BreastCancer(Dataset):
         return "classification"
 
     def load(self):
-        data = elm.read("../../ziwm/data/breast_cancer/breast_cancer.data")
+        data_path = path.join(path.dirname(path.abspath(__file__)), "breast_cancer.data")
+        data = elm.read(data_path)
         x = data[:, 1:]
         y = data[:, 0]
         return x, y
