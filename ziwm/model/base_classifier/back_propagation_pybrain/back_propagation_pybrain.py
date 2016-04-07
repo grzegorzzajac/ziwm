@@ -41,4 +41,4 @@ class BackPropagationPyBrain(Classifier):
 
         trainer = BackpropTrainer(self.__pybrain_bpnn, dataset=DS)
 
-        trainer.trainEpochs(500)
+        trainer.trainEpochs(5)

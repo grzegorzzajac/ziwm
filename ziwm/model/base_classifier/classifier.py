@@ -16,9 +16,13 @@ class Classifier(object):
         (should be subclasses of Model class)
         '''
         from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
+        from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
+        from ziwm.model.base_classifier.back_propagation_pybrain.back_propagation_pybrain import BackPropagationPyBrain
 
         models = []
         models.append(MockClassifier())
+        models.append(ExtremeLearningMachine())
+        models.append(BackPropagationPyBrain())
         return models
 
     @staticmethod

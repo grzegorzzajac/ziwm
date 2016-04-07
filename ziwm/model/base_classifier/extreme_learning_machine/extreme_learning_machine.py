@@ -31,7 +31,7 @@ class ExtremeLearningMachine(Classifier):
         '''
         y_T = np.array([y]).T
         data = np.concatenate((y_T, x), axis=1)
-        self.__elmk.search_param(data, cv="kfold", of="accuracy", eval=10)
-        return self.__elmk.train(data)
+        #self.__elmk.search_param(data, cv="kfold", of="accuracy", eval=10)
+        self.__elmk.train(data)
 
 
