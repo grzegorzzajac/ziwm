@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 
 from ziwm.model.base_classifier.classifier import Classifier
-from ziwm.data.mock.base import Dataset
+from ziwm.data.base import Dataset
 from ziwm.data.utils import split_dataset
 from ziwm.benchmarks.validator import model_score
 
@@ -15,7 +15,7 @@ if __name__ == '__main__':
     models = Classifier.all_models()
     
     # print output header
-    print("mock_classifier,model,score")
+    print("dataset,model,score")
 
     for dataset in datasets:
 

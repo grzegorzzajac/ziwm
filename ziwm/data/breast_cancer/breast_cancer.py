@@ -2,7 +2,7 @@
 
 import elm
 from os import path
-from ziwm.data.mock.base import Dataset
+from ziwm.data.base import Dataset
 
 
 class BreastCancer(Dataset):

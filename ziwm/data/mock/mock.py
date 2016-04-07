@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 
 import numpy as np
-from ziwm.data.mock.base import Dataset
+from ziwm.data.base import Dataset
 
 
 class MockDataset(Dataset):
