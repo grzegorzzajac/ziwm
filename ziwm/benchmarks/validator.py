@@ -20,9 +20,10 @@ def __classification_error(Y_predicted, Y):
     assert Y_predicted.shape == Y.shape
     length = Y_predicted.shape[0]
 
-    Y_pred_class = (Y_predicted >= 0.5) * 1.
-    
-    error = ((Y_pred_class != Y) * 1.).sum()
+    Y_class = np.rint(Y).astype(int)
+    Y_pred_class = np.rint(Y_predicted).astype(int)
+
+    error = ((Y_pred_class != Y_class) * 1.).sum()
     error = error / float(length)
     return error
 
