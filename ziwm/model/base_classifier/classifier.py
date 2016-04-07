@@ -18,11 +18,13 @@ class Classifier(object):
         from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
         from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
         from ziwm.model.base_classifier.back_propagation_pybrain.back_propagation_pybrain import BackPropagationPyBrain
+        from ziwm.model.svm import SVM
 
         models = []
         models.append(MockClassifier())
         models.append(ExtremeLearningMachine())
         models.append(BackPropagationPyBrain())
+        models.append(SVM())
         return models
 
     @staticmethod
