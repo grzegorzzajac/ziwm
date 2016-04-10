@@ -7,9 +7,12 @@ from ziwm.model.ensemble.ensemble import Ensemble
 
 class RandomSubspace(Ensemble):
 
-    def __init__(self, base_classifiers, voting_system):
-        super(RandomSubspace, self).__init__(base_classifiers, voting_system)
-        self.feature_subspaces = []
+    #def __init__(self, base_classifiers, voting_system):
+    #    super(RandomSubspace, self).__init__(base_classifiers, voting_system)
+    #    self.feature_subspaces = []
+    
+    def __init__(self, voting_system, classifier_type, classifier_count):
+        super(RandomSubspace, self).__init__(voting_system, classifier_type, classifier_count)
 
     @staticmethod
     def name():

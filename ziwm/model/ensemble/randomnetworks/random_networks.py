@@ -9,8 +9,11 @@ class RandomNetworks(Ensemble):
     Description...
     '''
 
-    def __init__(self, base_classifiers, voting_system):
-        super(RandomNetworks, self).__init__(base_classifiers, voting_system)
+    #def __init__(self, base_classifiers, voting_system):
+    #    super(RandomNetworks, self).__init__(base_classifiers, voting_system)
+        
+    def __init__(self, voting_system, classifier_type, classifier_count):
+        super(RandomNetworks, self).__init__(voting_system, classifier_type, classifier_count)
 
     @staticmethod
     def name():
@@ -24,7 +27,7 @@ class RandomNetworks(Ensemble):
         for member in self.base_classifiers:
             result = member.predict(x_test)
             results.append(result)
-        print 'partial results:\n', results
+        #print 'partial results:\n', results
         return self.voting_system.vote(results)
 
     def train(self, x, y):
