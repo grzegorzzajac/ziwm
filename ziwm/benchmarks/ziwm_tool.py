@@ -6,6 +6,8 @@ from ziwm.data.utils import split_dataset
 from ziwm.benchmarks.validator import model_score
 
 import numpy as np
+from ziwm.model.voting_system.voting_system import VotingSystem
+from ziwm.model.ensemble.ensemble import Ensemble
 
 if __name__ == '__main__':
     '''
@@ -15,9 +17,14 @@ if __name__ == '__main__':
     # load all possible models and datasets
     datasets = Dataset.all_datasets()
     models = Classifier.all_models()
+    voting_systems = VotingSystem.all_voting_systems()
+    ensemble_types = Ensemble.all_ensemble_types()
     
+    output_string_format = "{0: <15}\t{1: <28}\t{2: <13}\t{3: <18}\t{4: <28}\t{5: <22}\t{6: <15}\t{7: <22}"
+
     # print output header
-    print("dataset,dataset_size,number_of_classes,model,score")
+    print(output_string_format
+          .format('score','dataset','dataset_size','number_of_classes','model','ensemble','ensemble_size','voting_system'))
 
     for dataset in datasets:
 
@@ -41,6 +48,27 @@ if __name__ == '__main__':
             score = model_score(model, X_test, Y_test, dataset.problem_type())
             
             # print results in csv format
-            print("{0},{1},{2},{3},{4}".format(dataset.name(), dataset_size\
-                                               ,classes_count, model.name(), score))
+            print(output_string_format
+                  .format(score, dataset.name(), dataset_size\
+                          ,classes_count, model.name()\
+                          ,'NONE', 'NONE', 'NONE'))
+
+            # score enembles based on current model
+            for voting_system in voting_systems:
+                
+                for ensemble_type in ensemble_types:
+                    
+                    # create ensemble
+                    classifiers_in_ensamble = 5
+                    ensemble = ensemble_type(voting_system, type(model), classifiers_in_ensamble)
+                    ensemble.train(X_train, Y_train)
+                    
+                    # calculate performance score of ensemble
+                    score = model_score(ensemble, X_test, Y_test, dataset.problem_type())
             
+                    # print results in csv format
+                    print(output_string_format
+                          .format(score, dataset.name(), dataset_size\
+                                  ,classes_count, model.name()\
+                                  ,ensemble.name(), classifiers_in_ensamble\
+                                  ,voting_system.name()))

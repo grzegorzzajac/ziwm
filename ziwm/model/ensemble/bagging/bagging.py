@@ -10,8 +10,11 @@ class Bagging(Ensemble):
     Bagging description...
     '''
 
-    def __init__(self, base_classifiers, voting_system):
-        super(Bagging, self).__init__(base_classifiers, voting_system)
+    #def __init__(self, base_classifiers, voting_system):
+    #    super(Bagging, self).__init__(base_classifiers, voting_system)
+    
+    def __init__(self, voting_system, classifier_type, classifier_count):
+        super(Bagging, self).__init__(voting_system, classifier_type, classifier_count)
 
     @staticmethod
     def name():
