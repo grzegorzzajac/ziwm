@@ -2,7 +2,6 @@
 
 import numpy as np
 from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
-from ziwm.data.mock.mock import MockDataset
 from ziwm.data.utils import split_dataset
 
 def __average_square_error(Y1, Y2):

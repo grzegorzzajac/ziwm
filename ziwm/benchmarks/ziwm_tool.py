@@ -1,13 +1,13 @@
 #!/usr/bin/python2.7
 
 from ziwm.model.base_classifier.classifier import Classifier
-from ziwm.data.base import Dataset
 from ziwm.data.utils import split_dataset
 from ziwm.benchmarks.validator import model_score
 
 import numpy as np
 from ziwm.model.voting_system.voting_system import VotingSystem
 from ziwm.model.ensemble.ensemble import Ensemble
+from ziwm.data.dataset_loader.dataset_loader import DatasetLoader
 
 if __name__ == '__main__':
     '''
@@ -15,7 +15,9 @@ if __name__ == '__main__':
     '''
 
     # load all possible models and datasets
-    datasets = Dataset.all_datasets()
+    dataset_loader = DatasetLoader()
+    dataset_loader.load()
+    datasets = dataset_loader.get_all_datesets()
     models = Classifier.all_models()
     voting_systems = VotingSystem.all_voting_systems()
     ensemble_types = Ensemble.all_ensemble_types()
