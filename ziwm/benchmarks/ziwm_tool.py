@@ -1,13 +1,13 @@
 #!/usr/bin/python2.7
 
 from ziwm.model.base_classifier.classifier import Classifier
-from ziwm.data.utils import split_dataset
-from ziwm.benchmarks.validator import model_score
+from ziwm.benchmarks.validator import model_score_kfold
 
 import numpy as np
 from ziwm.model.voting_system.voting_system import VotingSystem
 from ziwm.model.ensemble.ensemble import Ensemble
 from ziwm.data.dataset_loader.dataset_loader import DatasetLoader
+from sklearn.cross_validation import StratifiedKFold
 
 if __name__ == '__main__':
     '''
@@ -38,22 +38,20 @@ if __name__ == '__main__':
 
         
         # split mock_classifier into train and examples sets
-        X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
+        #X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
+        kfold_labels = StratifiedKFold(Y, n_folds=10, shuffle=True, random_state=1993)
         
         # evaluate models
         for model in models:
 
-            # train model
-            model.train(X_train, Y_train)
-            
-            # calculate performance score
-            score = model_score(model, X_test, Y_test, dataset.problem_type())
+            # calculate performance score of the model
+            score = model_score_kfold(model, X, Y, kfold_labels, dataset.problem_type())
             
             # print results in csv format
             print(output_string_format
                   .format(score, dataset.name(), dataset_size\
                           ,classes_count, model.name()\
-                          ,'NONE', 'NONE', 'NONE', X_train.shape[1]))
+                          ,'NONE', 'NONE', 'NONE', X.shape[1]))
 
             # score enembles based on current model
             for voting_system in voting_systems:
@@ -61,16 +59,15 @@ if __name__ == '__main__':
                 for ensemble_type in ensemble_types:
                     
                     # create ensemble
-                    classifiers_in_ensamble = 50
+                    classifiers_in_ensamble = 30
                     ensemble = ensemble_type(voting_system, type(model), classifiers_in_ensamble)
-                    ensemble.train(X_train, Y_train)
                     
                     # calculate performance score of ensemble
-                    score = model_score(ensemble, X_test, Y_test, dataset.problem_type())
+                    score = model_score_kfold(model, X, Y, kfold_labels, dataset.problem_type())
             
                     # print results in csv format
                     print(output_string_format
                           .format(score, dataset.name(), dataset_size\
                                   ,classes_count, model.name()\
                                   ,ensemble.name(), classifiers_in_ensamble\
-                                  ,voting_system.name(), X_train.shape[1]))
+                                  ,voting_system.name(), X.shape[1]))

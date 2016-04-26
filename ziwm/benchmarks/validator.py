@@ -42,6 +42,18 @@ def model_score(model, X_test, Y_test, problem_type):
     
     return score
 
+def model_score_kfold(model, X, Y, kfold_labels, problem_type):
+    kfold_iterations = len(kfold_labels)
+    score_sum = 0.0
+    for train_index, test_index in kfold_labels:
+        X_train, X_test = X[train_index], X[test_index]
+        Y_train, Y_test = Y[train_index], Y[test_index]
+        model.train(X_train, Y_train)
+        score = model_score(model, X_test, Y_test, problem_type)
+        score_sum += score
+    return score_sum / float(kfold_iterations)
+
+
 if __name__ == '__main__':
     model = MockClassifier()
     dataset = MockDataset()
