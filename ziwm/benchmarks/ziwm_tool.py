@@ -63,7 +63,7 @@ if __name__ == '__main__':
                     ensemble = ensemble_type(voting_system, type(model), classifiers_in_ensamble)
                     
                     # calculate performance score of ensemble
-                    score = model_score_kfold(model, X, Y, kfold_labels, dataset.problem_type())
+                    score = model_score_kfold(ensemble, X, Y, kfold_labels, dataset.problem_type())
             
                     # print results in csv format
                     print(output_string_format
