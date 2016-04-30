@@ -15,7 +15,7 @@ class Ensemble(Classifier):
         from ziwm.model.ensemble.randomnetworks.random_networks import RandomNetworks
         
         ensemble_types = []
-        #ensemble_types.append(Bagging)
+        ensemble_types.append(Bagging)
         ensemble_types.append(RandomSubspace)
         ensemble_types.append(RandomNetworks)
         return ensemble_types
