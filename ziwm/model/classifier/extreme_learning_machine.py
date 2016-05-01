@@ -2,7 +2,8 @@
 
 import elm
 import numpy as np
-from ziwm.model.base_classifier.classifier import Classifier
+
+from ziwm.model.classifier.base import Classifier
 
 
 class ExtremeLearningMachine(Classifier):

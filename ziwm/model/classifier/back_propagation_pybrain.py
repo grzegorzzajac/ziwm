@@ -5,7 +5,8 @@ from pybrain.tools.shortcuts import buildNetwork
 from pybrain.structure.modules import SoftmaxLayer
 from pybrain.datasets.classification import ClassificationDataSet
 from pybrain.supervised.trainers.backprop import BackpropTrainer
-from ziwm.model.base_classifier.classifier import Classifier
+
+from ziwm.model.classifier.base import Classifier
 
 
 class BackPropagationPyBrain(Classifier):

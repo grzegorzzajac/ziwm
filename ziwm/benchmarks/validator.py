@@ -1,8 +1,6 @@
 #!/usr/bin/python2.7
 
 import numpy as np
-from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
-from ziwm.data.utils import split_dataset
 import time
 
 def __average_square_error(Y1, Y2):
@@ -67,12 +65,3 @@ def model_score_kfold(model, X, Y, kfold_labels, problem_type, measure_time=Fals
         return score, total_time
     else:
         return score
-
-if __name__ == '__main__':
-    model = MockClassifier()
-    dataset = MockDataset()
-    X, Y = dataset.load()
-    X_train, X_test, Y_train, Y_test = split_dataset(X, Y)
-    model.train(X_train, Y_train)
-    score = model_score(model, X_test, Y_test, problem_type='classification')
-    print(score)

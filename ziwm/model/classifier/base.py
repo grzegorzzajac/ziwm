@@ -15,10 +15,10 @@ class Classifier(object):
         Returns objects of all available predictive model classes
         (should be subclasses of Model class)
         '''
-        from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
-        from ziwm.model.base_classifier.extreme_learning_machine.extreme_learning_machine import ExtremeLearningMachine
-        from ziwm.model.base_classifier.back_propagation_pybrain.back_propagation_pybrain import BackPropagationPyBrain
-        from ziwm.model.svm import SVM
+        from ziwm.model.classifier.mock_classifier import MockClassifier
+        from ziwm.model.classifier.extreme_learning_machine import ExtremeLearningMachine
+        from ziwm.model.classifier.back_propagation_pybrain import BackPropagationPyBrain
+        from ziwm.model.classifier.svm import SVM
 
         models = []
         models.append(MockClassifier())

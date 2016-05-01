@@ -1,7 +1,8 @@
 #!/usr/bin/python2.7
 
 import numpy as np
-from ziwm.model.base_classifier.classifier import Classifier
+
+from ziwm.model.classifier.base import Classifier
 
 
 class MockClassifier(Classifier):

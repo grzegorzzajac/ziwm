@@ -1,12 +1,15 @@
 #!/usr/bin/python2.7
 
 import numpy as np
-import sys
 import argparse
+if __name__ == '__main__' and __package__ is None:
+    from os import sys, path
+    sys.path.append(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))))
+import sys
 
-from ziwm.model.base_classifier.classifier import Classifier
+from ziwm.model.classifier.base import Classifier
 from ziwm.benchmarks.validator import model_score_kfold
-from ziwm.model.voting_system.voting_system import VotingSystem
+from ziwm.utils.voting_system.voting_system import VotingSystem
 from ziwm.model.ensemble.ensemble import Ensemble
 from ziwm.data.dataset_loader.dataset_loader import DatasetLoader
 from sklearn.cross_validation import StratifiedKFold
@@ -119,7 +122,7 @@ def main():
                         choices=['ensembles', 'classifiers'])
     parser.add_argument("-f", "--file", help="Print results to a file")
     args = parser.parse_args()
-    print args.mode
+    print "Benchmarking", args.mode
     print_to_file = False
     if args.file != None:
         print "Printing output to '" + args.file + "'file"

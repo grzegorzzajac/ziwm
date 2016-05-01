@@ -1,6 +1,7 @@
-from ziwm.model.base_classifier.classifier import Classifier
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm.classes import LinearSVC
+
+from ziwm.model.classifier.base import Classifier
 
 class SVM(Classifier):
 

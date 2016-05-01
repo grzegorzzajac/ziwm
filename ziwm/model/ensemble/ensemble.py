@@ -1,6 +1,6 @@
 #!/usr/bin/python2.7
 
-from ziwm.model.base_classifier.classifier import Classifier
+from ziwm.model.classifier.base import Classifier
 
 
 class Ensemble(Classifier):

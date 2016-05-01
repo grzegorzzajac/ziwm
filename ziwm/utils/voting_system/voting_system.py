@@ -14,8 +14,8 @@ class VotingSystem(object):
         Returns objects of all available voting systems classes
         (should be subclasses of VotingSystem class)
         '''
-        from ziwm.model.voting_system.majority_voting.majority_voting import MajorityVoting
-        from ziwm.model.voting_system.arithmetic_mean.arithmetic_mean import ArithmeticMean
+        from ziwm.utils.voting_system.majority_voting import MajorityVoting
+        from ziwm.utils.voting_system.arithmetic_mean import ArithmeticMean
 
         voting_systems = []
         voting_systems.append(MajorityVoting())

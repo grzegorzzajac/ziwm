@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 
 import numpy as np
-from ziwm.model.voting_system.voting_system import VotingSystem
+from ziwm.utils.voting_system.voting_system import VotingSystem
 
 
 class ArithmeticMean(VotingSystem):
