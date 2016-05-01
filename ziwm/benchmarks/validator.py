@@ -3,6 +3,7 @@
 import numpy as np
 from ziwm.model.base_classifier.mock_classifier.mock_classifier import MockClassifier
 from ziwm.data.utils import split_dataset
+import time
 
 def __average_square_error(Y1, Y2):
     length = Y1.shape[0]
@@ -42,17 +43,30 @@ def model_score(model, X_test, Y_test, problem_type):
     
     return score
 
-def model_score_kfold(model, X, Y, kfold_labels, problem_type):
+def model_score_kfold(model, X, Y, kfold_labels, problem_type, measure_time=False):
     kfold_iterations = len(kfold_labels)
     score_sum = 0.0
+    if measure_time == True:
+        total_time = 0.0
     for train_index, test_index in kfold_labels:
         X_train, X_test = X[train_index], X[test_index]
         Y_train, Y_test = Y[train_index], Y[test_index]
+        if measure_time == True:
+            t1 = time.time()
         model.train(X_train, Y_train)
+        if measure_time == True:
+            t2 = time.time()
+            time_diff = (t2 - t1) * 1000.0
+            total_time += time_diff
+
         score = model_score(model, X_test, Y_test, problem_type)
         score_sum += score
-    return score_sum / float(kfold_iterations)
-
+        
+    score = score_sum / float(kfold_iterations)
+    if measure_time:
+        return score, total_time
+    else:
+        return score
 
 if __name__ == '__main__':
     model = MockClassifier()
