@@ -11,8 +11,7 @@ def split_dataset(X, Y):
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=1993)
     return X_train, X_test, Y_train, Y_test
 
-    
-    
+
 if __name__ == "__main__":
     X = np.arange(50).reshape(10,5)
     Y = np.arange(10).reshape(10,1)
