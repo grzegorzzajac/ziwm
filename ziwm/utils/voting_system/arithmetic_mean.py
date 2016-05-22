@@ -16,6 +16,6 @@ class ArithmeticMean(VotingSystem):
     @staticmethod
     def vote(results):
         avg = np.average(results, axis=0)
-        rnd = np.round(avg)
-        return np.absolute(rnd)
+        # rnd = np.round(avg)
+        return avg
 

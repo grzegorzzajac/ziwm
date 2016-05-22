@@ -26,13 +26,15 @@ class BackPropagationPyBrain(Classifier):
         DS.setField('target', np.zeros((x_test.shape[0], 1)))
         DS._convertToOneOfMany()
         out = self.__pybrain_bpnn.activateOnDataset(DS)
-        out = out.argmax(axis=1)  # the highest output activation gives the class
-        if not self.__class_zero_indexing:  # indexing from 1 - add one to result
-            out += 1
+        # this part converts an activation vector to a class number
+        # i'm saving this for a future purpose
+        #out = out.argmax(axis=1)  # the highest output activation gives the class
+        #if not self.__class_zero_indexing:  # indexing from 1 - add one to result
+        #    out += 1
         return out
 
-    def train(self, x, y):
-        self.__class_num = np.unique(y).size
+    def train(self, x, y, class_number=-1):
+        self.__class_num = max(np.unique(y).size, class_number)
         if max(y) == self.__class_num:
             self.__class_zero_indexing = False
             y = np.array([i - 1 for i in y])
