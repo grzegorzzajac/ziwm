@@ -48,6 +48,7 @@ def __model_score_job(args):
                         ,classes_count, model.name()\
                         ,ensemble.name(), classifiers_in_ensamble\
                         ,voting_system_name, X.shape[1]))
+    sys.stdout.flush()
 
     lock.release()
     return score
