@@ -45,6 +45,7 @@ def model_score(model, X_test, Y_test, problem_type):
 def model_score_kfold(model, X, Y, kfold_labels, problem_type, measure_time=False, feature_labels = None):
     kfold_iterations = len(kfold_labels)
     score_sum = 0.0
+    Y = np.rint(Y).astype(int)
     if measure_time == True:
         total_time = 0.0
     for train_index, test_index in kfold_labels:
