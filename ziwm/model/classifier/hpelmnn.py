@@ -3,6 +3,8 @@ from ziwm.model.classifier.base import Classifier
 from hpelm import ELM
 import numpy as np
 from sklearn.preprocessing.data import OneHotEncoder
+import sys
+import os
 
 
 class HPELMNN(Classifier):
@@ -25,7 +27,10 @@ class HPELMNN(Classifier):
         enc.fit(Y_arr)
         Y_OHE = enc.transform(Y_arr).toarray()
 
+        out_fd = sys.stdout
+        sys.stdout = open(os.devnull, 'w')
         self.__hpelm.train(X, Y_OHE)
+        sys.stdout = out_fd
 
     def predict(self, X):
         Y_predicted = self.__hpelm.predict(X)
