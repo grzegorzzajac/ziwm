@@ -42,7 +42,7 @@ def model_score(model, X_test, Y_test, problem_type):
     
     return score
 
-def model_score_kfold(model, X, Y, kfold_labels, problem_type, measure_time=False):
+def model_score_kfold(model, X, Y, kfold_labels, problem_type, measure_time=False, feature_labels = None):
     kfold_iterations = len(kfold_labels)
     score_sum = 0.0
     if measure_time == True:
@@ -53,7 +53,10 @@ def model_score_kfold(model, X, Y, kfold_labels, problem_type, measure_time=Fals
         if measure_time == True:
             t1 = time.time()
         classes = np.unique(Y).size
-        model.train(X_train, Y_train, classes)
+        if feature_labels:
+            model.train(X_train, Y_train, classes, feature_labels)
+        else:
+            model.train(X_train, Y_train, classes)
         if measure_time == True:
             t2 = time.time()
             time_diff = (t2 - t1) * 1000.0
