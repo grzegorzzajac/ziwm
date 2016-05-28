@@ -30,6 +30,7 @@ def model_score(model, X_test, Y_test, problem_type):
     Calculates performance score of a model on a given examples set
     '''
     Y_predicted = model.predict(X_test)
+    Y_predicted = np.argmax(Y_predicted, axis=1)
     assert Y_predicted.shape == Y_test.shape
 
     if problem_type == 'regression':
@@ -51,7 +52,8 @@ def model_score_kfold(model, X, Y, kfold_labels, problem_type, measure_time=Fals
         Y_train, Y_test = Y[train_index], Y[test_index]
         if measure_time == True:
             t1 = time.time()
-        model.train(X_train, Y_train)
+        classes = np.unique(Y).size
+        model.train(X_train, Y_train, classes)
         if measure_time == True:
             t2 = time.time()
             time_diff = (t2 - t1) * 1000.0

@@ -27,11 +27,11 @@ class RandomSubspace(Ensemble):
             results.append(result)
         return self.voting_system.vote(results)
 
-    def train(self, x, y):
+    def train(self, x, y, class_number=-1):
         self.feature_subspaces = []
         for i in range(len(self.base_classifiers)):
             new_x, feature_subspace = self.__create_individual_dataset(x)
-            self.base_classifiers[i].train(new_x, y)
+            self.base_classifiers[i].train(new_x, y, class_number)
             self.feature_subspaces.append(feature_subspace)
 
     @staticmethod

@@ -22,7 +22,7 @@ class Classifier(object):
 
         models = []
         models.append(MockClassifier())
-        models.append(ExtremeLearningMachine())
+        #models.append(ExtremeLearningMachine())
         models.append(BackPropagationPyBrain())
         models.append(SVM())
         return models
@@ -43,7 +43,7 @@ class Classifier(object):
         pass
 
     @abstractmethod
-    def train(self, X, Y):
+    def train(self, X, Y, class_number=-1):
         '''
         Train model with a given mock_classifier
         X : 
