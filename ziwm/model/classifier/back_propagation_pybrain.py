@@ -7,6 +7,7 @@ from pybrain.datasets.classification import ClassificationDataSet
 from pybrain.supervised.trainers.backprop import BackpropTrainer
 
 from ziwm.model.classifier.base import Classifier
+from pybrain.structure.modules.sigmoidlayer import SigmoidLayer
 
 
 class BackPropagationPyBrain(Classifier):
@@ -46,8 +47,8 @@ class BackPropagationPyBrain(Classifier):
 
         hidden_num = (DS.indim + DS.outdim) / 2
 
-        self.__pybrain_bpnn = buildNetwork(DS.indim, hidden_num, DS.outdim, outclass=SoftmaxLayer)
+        self.__pybrain_bpnn = buildNetwork(DS.indim, hidden_num, DS.outdim, bias=True, hiddenclass=SigmoidLayer, outclass=SoftmaxLayer)
 
-        trainer = BackpropTrainer(self.__pybrain_bpnn, dataset=DS)
+        trainer = BackpropTrainer(self.__pybrain_bpnn, dataset=DS, learningrate=0.07, lrdecay=1.0, momentum=0.6)
 
-        trainer.trainEpochs(5)
+        trainer.trainUntilConvergence(DS, maxEpochs=30)
