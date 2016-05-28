@@ -132,7 +132,6 @@ def benchmark_ensembles(print_to_file=False):
             for train_index, test_index in kfold_labels:
                 Y_train, Y_test = Y[train_index], Y[test_index]
                 assert np.unique(Y_train).size == classes_count
-                assert np.unique(Y_test).size == classes_count
             
             # evaluate models
             for model in models:
