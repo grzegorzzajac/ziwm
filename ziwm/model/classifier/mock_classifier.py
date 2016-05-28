@@ -8,29 +8,34 @@ from ziwm.model.classifier.base import Classifier
 class MockClassifier(Classifier):
     '''
     A simple, mock_classifier mock_classifier. It does not learn.
-    Always returns '1' if all features are equal to '1'
-    and '0' otherwise
+    Always returns [0,1,0,...] if all features are equal to '1'
+    and [1,0,0,...] otherwise
     '''
-    
+    def __init__(self):
+        self.__class_num = 0
+
     def name(self):
         return "MockClassifier"
     
     def predict(self, X):
         '''
-        Predicts '1' if all features are equal to '1',
-        '0' otherwise
+        Predicts [0,1,0,...] if all features are equal to '1',
+        [1,0,0,...] otherwise
         '''
         row_mins = X.min(axis=1)
         row_maxs = X.max(axis=1)
         Y = ((row_mins == 1) & (row_maxs == 1))
-        Y = Y * 1.0
+        # FIXME: make it pretty
+        first = [1] + [0] * (self.__class_num - 1)
+        second = [0] + [1] + [0] * (self.__class_num - 2)
+        Y = [second if y else first for y in Y]
         return Y
     
-    def train(self, X, Y):
+    def train(self, X, Y, class_number=-1):
         '''
-        Do nothing - it is just a mock_classifier
+        Save a number of classes
         '''
-        pass
+        self.__class_num = max(np.unique(Y).size, class_number)
     
 if __name__ == "__main__":
 

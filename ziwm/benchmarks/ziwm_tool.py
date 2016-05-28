@@ -2,6 +2,8 @@
 
 import numpy as np
 import argparse
+from multiprocessing.pool import Pool
+from multiprocessing.synchronize import Lock
 if __name__ == '__main__' and __package__ is None:
     from os import sys, path
     sys.path.append(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))))
@@ -13,6 +15,7 @@ from ziwm.utils.voting_system.voting_system import VotingSystem
 from ziwm.model.ensemble.ensemble import Ensemble
 from ziwm.data.dataset_loader.dataset_loader import DatasetLoader
 from sklearn.cross_validation import StratifiedKFold
+from ziwm.model.ensemble.random_subspace.random_subspace import RandomSubspace
 
 def __load_datasets():
     dataset_loader = DatasetLoader()
@@ -22,6 +25,36 @@ def __load_datasets():
 
 def __kfold_labels(Y):
     return StratifiedKFold(Y, n_folds=10, shuffle=True, random_state=1993)
+
+def __load_feature_labels(filename):
+    f = open(filename, 'r')
+    header = f.readline().rstrip()
+    str_labels = header.split(',')
+    str_labels = list(filter(lambda s : s.isdigit() or s == '-1', str_labels))
+    labels = list(map(int, str_labels))
+    return labels
+
+def __model_score_job(args):
+    ensemble, X, Y, kfold_labels, dataset, model, output_string_format, classifiers_in_ensamble, voting_system_name, feature_labels = args
+    # dataset info
+    dataset_size = X.shape[0]
+    classes_count = np.unique(Y).size
+
+    score = model_score_kfold(ensemble, X, Y, kfold_labels, dataset.problem_type(), feature_labels=feature_labels)
+
+    lock.acquire()
+    print(output_string_format
+                .format(score, dataset.name(), dataset_size\
+                        ,classes_count, model.name()\
+                        ,ensemble.name(), classifiers_in_ensamble\
+                        ,voting_system_name, X.shape[1]))
+
+    lock.release()
+    return score
+
+def __init_proc(l):
+    global lock
+    lock = l
 
 def benchmark_classifiers():
 
@@ -78,6 +111,9 @@ def benchmark_ensembles(print_to_file=False):
     
     ensamble_sizes = [1, 2, 4, 6, 8, 12, 15, 20, 25, 30, 40, 50, 60, 70, 100]
 
+    process_jobs_args = []
+    l = Lock()
+
     for classifiers_in_ensamble in ensamble_sizes:
 
         for dataset in datasets:
@@ -90,6 +126,12 @@ def benchmark_ensembles(print_to_file=False):
             
             # Split dataset into kfold datasets
             kfold_labels = __kfold_labels(Y)
+
+            # Check if every class is in every set after kfold
+            for train_index, test_index in kfold_labels:
+                Y_train, Y_test = Y[train_index], Y[test_index]
+                assert np.unique(Y_train).size == classes_count
+                assert np.unique(Y_test).size == classes_count
             
             # evaluate models
             for model in models:
@@ -98,20 +140,21 @@ def benchmark_ensembles(print_to_file=False):
                 for voting_system in voting_systems:
                     
                     for ensemble_type in ensemble_types:
-                        
+
+                        feature_labels = None
+                        if ensemble_type == RandomSubspace:
+                            feature_labels = __load_feature_labels(dataset.path())
+
                         # create ensemble
                         ensemble = ensemble_type(voting_system, type(model), classifiers_in_ensamble)
                         
-                        # calculate performance score of ensemble
-                        score = model_score_kfold(ensemble, X, Y, kfold_labels, dataset.problem_type())
-                
-                        # print results in csv format
-                        print(output_string_format
-                              .format(score, dataset.name(), dataset_size\
-                                      ,classes_count, model.name()\
-                                      ,ensemble.name(), classifiers_in_ensamble\
-                                      ,voting_system.name(), X.shape[1]))
-                        sys.stdout.flush()
+                        job_args = ensemble, X, Y, kfold_labels, dataset, model, output_string_format, classifiers_in_ensamble, voting_system.name(), feature_labels
+                        process_jobs_args.append(job_args)
+                        
+    pool = Pool(initializer=__init_proc, initargs=(l, ), processes=None)
+    pool.map(__model_score_job, process_jobs_args)
+    pool.terminate()
+    pool = None
 
 
 def main():

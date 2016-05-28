@@ -30,13 +30,13 @@ class RandomNetworks(Ensemble):
         #print 'partial results:\n', results
         return self.voting_system.vote(results)
 
-    def train(self, x, y):
+    def train(self, x, y, class_number=-1):
         '''
         Mozna przyspieszyc wykonujac search_param jednokrotnie
         i trenujac bezposrednio metoda member.extreme_learning_machine.train
         '''
         for member in self.base_classifiers:
-            member.train(x, y)
+            member.train(x, y, class_number)
 
 
 

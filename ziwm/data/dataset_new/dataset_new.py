@@ -25,3 +25,6 @@ class DatasetNew(Dataset):
         y = data[:, 0]
         return x, y
 
+    def path(self):
+        return self.__full_path
+
