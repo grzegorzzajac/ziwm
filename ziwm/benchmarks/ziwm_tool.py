@@ -118,7 +118,7 @@ def benchmark_ensembles(print_to_file=False):
       .format('score','dataset','dataset_size','number_of_classes','model','ensemble','ensemble_size','voting_system', 'feature_count'))
     
     
-    ensamble_sizes = [1, 2, 4, 6, 8, 12, 15, 20, 25, 30, 40, 50, 60, 70, 100]
+    ensamble_sizes = [1, 2, 4, 6, 8, 12, 15, 20, 25, 30, 40, 50, 60, 70, 100][::-1]
 
     process_jobs_args = []
     l = Lock()
