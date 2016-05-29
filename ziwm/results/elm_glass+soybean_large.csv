@@ -1,0 +1,52 @@
+score,dataset,feature_count,dataset_size,number_of_classes,model,ensemble,ensemble_size,voting_system
+0.888,soybean_large,97,250,14,hpelmnn,Bagging,50,Majority Voting
+0.908,soybean_large,97,250,14,hpelmnn,Bagging,60,Majority Voting
+0.896,soybean_large,97,250,14,hpelmnn,Bagging,70,Majority Voting
+0.912,soybean_large,97,250,14,hpelmnn,Random Subspace,50,Majority Voting
+0.916,soybean_large,97,250,14,hpelmnn,Random Subspace,60,Majority Voting
+0.896,soybean_large,97,250,14,hpelmnn,Bagging,100,Majority Voting
+0.912,soybean_large,97,250,14,hpelmnn,Random Subspace,70,Majority Voting
+0.912,soybean_large,97,250,14,hpelmnn,Random Networks,50,Majority Voting
+0.916,soybean_large,97,250,14,hpelmnn,Random Subspace,100,Majority Voting
+0.912,soybean_large,97,250,14,hpelmnn,Random Networks,60,Majority Voting
+0.92,soybean_large,97,250,14,hpelmnn,Random Networks,70,Majority Voting
+0.904,soybean_large,97,250,14,hpelmnn,Bagging,50,Arithmetic Mean
+0.908,soybean_large,97,250,14,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.908,soybean_large,97,250,14,hpelmnn,Bagging,60,Arithmetic Mean
+0.912,soybean_large,97,250,14,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.908,soybean_large,97,250,14,hpelmnn,Random Networks,50,Arithmetic Mean
+0.916,soybean_large,97,250,14,hpelmnn,Bagging,70,Arithmetic Mean
+0.614960226654,glass,9,214,6,hpelmnn,Bagging,50,Majority Voting
+0.916,soybean_large,97,250,14,hpelmnn,Random Networks,100,Majority Voting
+0.582039783253,glass,9,214,6,hpelmnn,Random Subspace,50,Majority Voting
+0.912,soybean_large,97,250,14,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.619465214419,glass,9,214,6,hpelmnn,Random Networks,50,Majority Voting
+0.660254787166,glass,9,214,6,hpelmnn,Bagging,50,Arithmetic Mean
+0.916,soybean_large,97,250,14,hpelmnn,Random Networks,60,Arithmetic Mean
+0.591844978058,glass,9,214,6,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.651321039754,glass,9,214,6,hpelmnn,Random Networks,50,Arithmetic Mean
+0.908,soybean_large,97,250,14,hpelmnn,Random Networks,70,Arithmetic Mean
+0.619161589745,glass,9,214,6,hpelmnn,Bagging,70,Majority Voting
+0.912,soybean_large,97,250,14,hpelmnn,Bagging,100,Arithmetic Mean
+0.587691957166,glass,9,214,6,hpelmnn,Random Subspace,70,Majority Voting
+0.629010668965,glass,9,214,6,hpelmnn,Random Networks,70,Majority Voting
+0.908,soybean_large,97,250,14,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.912,soybean_large,97,250,14,hpelmnn,Random Networks,100,Arithmetic Mean
+0.651599601771,glass,9,214,6,hpelmnn,Bagging,100,Majority Voting
+0.577772890725,glass,9,214,6,hpelmnn,Random Subspace,100,Majority Voting
+0.624010668965,glass,9,214,6,hpelmnn,Random Networks,100,Majority Voting
+0.651342684775,glass,9,214,6,hpelmnn,Bagging,100,Arithmetic Mean
+0.605459696673,glass,9,214,6,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.642665854359,glass,9,214,6,hpelmnn,Random Networks,100,Arithmetic Mean
+0.892,soybean_large,97,250,14,hpelmnn,Bagging,8,Majority Voting
+0.884,soybean_large,97,250,14,hpelmnn,Random Subspace,8,Majority Voting
+0.904,soybean_large,97,250,14,hpelmnn,Random Networks,8,Majority Voting
+0.912,soybean_large,97,250,14,hpelmnn,Bagging,8,Arithmetic Mean
+0.908,soybean_large,97,250,14,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.916,soybean_large,97,250,14,hpelmnn,Random Networks,8,Arithmetic Mean
+0.582798052443,glass,9,214,6,hpelmnn,Bagging,8,Majority Voting
+0.513145908249,glass,9,214,6,hpelmnn,Random Subspace,8,Majority Voting
+0.613114158915,glass,9,214,6,hpelmnn,Random Networks,8,Majority Voting
+0.627223889764,glass,9,214,6,hpelmnn,Bagging,8,Arithmetic Mean
+0.576099388788,glass,9,214,6,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.623813040506,glass,9,214,6,hpelmnn,Random Networks,8,Arithmetic Mean
