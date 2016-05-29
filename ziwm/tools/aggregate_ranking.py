@@ -38,6 +38,8 @@ def calculate_rank(results_data):
         for dataset in datasets:
             # Get results and sort
             rank_list = np.asarray([row for row in results_data if row[1] == dataset and row[7].astype(int) == size])
+            if rank_list.size == 0:
+                continue
             rank_list = rank_list[np.ix_(rank_list[:, 0].argsort()[::-1], [5, 6, 8])]
             rank_list = [tuple(row) for row in rank_list]
 
