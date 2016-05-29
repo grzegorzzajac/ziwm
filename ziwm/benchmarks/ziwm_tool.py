@@ -40,7 +40,15 @@ def __model_score_job(args):
     dataset_size = X.shape[0]
     classes_count = np.unique(Y).size
 
-    score = model_score_kfold(ensemble, X, Y, kfold_labels, dataset.problem_type(), feature_labels=feature_labels)
+    score = None
+    try:
+        score = model_score_kfold(ensemble, X, Y, kfold_labels, dataset.problem_type(), feature_labels=feature_labels)
+    except AssertionError:
+        lock.acquire()
+        print("Assert:" + str(ensemble) + "," + dataset.name())
+        sys.stdout.flush()
+        lock.release()
+        return -1.0
 
     lock.acquire()
     print(output_string_format
