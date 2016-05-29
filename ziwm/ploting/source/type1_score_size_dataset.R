@@ -3,6 +3,9 @@
 # each dataset separately
 # (uses all *.csv files in 'results' dir)
 
+library(ggplot2)
+library(tools) 
+
 script.dir <- dirname(sys.frame(1)$ofile)
 csv_path <- file.path(script.dir, "..", "..", "results")
 
