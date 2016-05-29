@@ -146,7 +146,6 @@ score,dataset,feature_count,dataset_size,number_of_classes,model,ensemble,ensemb
 0.983006535948,wine,13,178,3,svm,Bagging,20,Majority Voting
 1.0,soybean_small,72,47,4,svm,Bagging,15,Majority Voting
 0.933333333333,iris,4,150,3,svm,Bagging,20,Majority Voting
-Assert:<ziwm.model.ensemble.bagging.bagging.Bagging object at 0x7f843c0cfcd0>,glass
 0.983006535948,wine,13,178,3,svm,Bagging,15,Majority Voting
 0.956173864895,house_votes,48,435,2,svm,Bagging,20,Majority Voting
 0.94,iris,4,150,3,svm,Bagging,25,Majority Voting
@@ -247,7 +246,6 @@ Assert:<ziwm.model.ensemble.bagging.bagging.Bagging object at 0x7f843c0cfcd0>,gl
 0.842501017501,spect,44,267,2,svm,Bagging,40,Arithmetic Mean
 0.717167487685,breast_cancer,43,286,2,svm,Bagging,50,Majority Voting
 1.0,soybean_small,72,47,4,svm,Bagging,40,Majority Voting
-Assert:<ziwm.model.ensemble.bagging.bagging.Bagging object at 0x7f843bfb0690>,glass
 0.983006535948,wine,13,178,3,svm,Bagging,50,Majority Voting
 0.933333333333,iris,4,150,3,svm,Bagging,50,Majority Voting
 0.79643488975,urban_land_cover,147,675,9,svm,Bagging,4,Majority Voting
