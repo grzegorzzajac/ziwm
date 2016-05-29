@@ -1,0 +1,1171 @@
+score,dataset,feature_count,dataset_size,number_of_classes,model,ensemble,ensemble_size,voting_system
+0.81916971917,spect,44,267,2,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.871489262372,ionosphere,34,351,2,hpelmnn,Bagging,1,Majority Voting
+0.819851444851,spect,44,267,2,hpelmnn,Random Networks,1,Arithmetic Mean
+0.835303454715,ionosphere,34,351,2,hpelmnn,Random Subspace,1,Majority Voting
+0.886120448179,ionosphere,34,351,2,hpelmnn,Random Networks,1,Majority Voting
+0.831542531543,spect,44,267,2,hpelmnn,Random Networks,2,Majority Voting
+0.865859010271,ionosphere,34,351,2,hpelmnn,Bagging,1,Arithmetic Mean
+0.911605975724,ionosphere,34,351,2,hpelmnn,Bagging,2,Majority Voting
+0.81916971917,spect,44,267,2,hpelmnn,Bagging,4,Majority Voting
+0.860056022409,ionosphere,34,351,2,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.88350140056,ionosphere,34,351,2,hpelmnn,Random Networks,1,Arithmetic Mean
+0.902703081232,ionosphere,34,351,2,hpelmnn,Random Subspace,2,Majority Voting
+0.797344322344,spect,44,267,2,hpelmnn,Bagging,2,Arithmetic Mean
+0.790382980647,tic_tac_toe,27,958,2,hpelmnn,Bagging,1,Majority Voting
+0.831257631258,spect,44,267,2,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.835215710216,spect,44,267,2,hpelmnn,Random Subspace,4,Majority Voting
+0.923207282913,ionosphere,34,351,2,hpelmnn,Random Networks,2,Majority Voting
+0.691017136914,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,1,Majority Voting
+0.803763338759,tic_tac_toe,27,958,2,hpelmnn,Random Networks,1,Majority Voting
+0.81628001628,spect,44,267,2,hpelmnn,Random Networks,2,Arithmetic Mean
+0.883095238095,ionosphere,34,351,2,hpelmnn,Bagging,2,Arithmetic Mean
+0.7828192259,tic_tac_toe,27,958,2,hpelmnn,Bagging,1,Arithmetic Mean
+0.816412291412,spect,44,267,2,hpelmnn,Random Networks,4,Majority Voting
+0.677420645686,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.886690009337,ionosphere,34,351,2,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.759044357027,tic_tac_toe,27,958,2,hpelmnn,Random Networks,1,Arithmetic Mean
+0.853333333333,iris,4,150,3,hpelmnn,Bagging,1,Majority Voting
+0.906050420168,ionosphere,34,351,2,hpelmnn,Bagging,4,Majority Voting
+0.606666666667,iris,4,150,3,hpelmnn,Random Subspace,1,Majority Voting
+0.880154061625,ionosphere,34,351,2,hpelmnn,Random Networks,2,Arithmetic Mean
+0.773333333333,iris,4,150,3,hpelmnn,Random Networks,1,Majority Voting
+0.793333333333,iris,4,150,3,hpelmnn,Bagging,1,Arithmetic Mean
+0.835368335368,spect,44,267,2,hpelmnn,Bagging,4,Arithmetic Mean
+0.6,iris,4,150,3,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.84,iris,4,150,3,hpelmnn,Random Networks,1,Arithmetic Mean
+0.972187822497,wine,13,178,3,hpelmnn,Bagging,1,Majority Voting
+0.874276377218,ionosphere,34,351,2,hpelmnn,Random Subspace,4,Majority Voting
+0.881004901961,wine,13,178,3,hpelmnn,Random Subspace,1,Majority Voting
+0.762906945198,tic_tac_toe,27,958,2,hpelmnn,Bagging,2,Majority Voting
+0.983006535948,wine,13,178,3,hpelmnn,Random Networks,1,Majority Voting
+0.846479446479,spect,44,267,2,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.983333333333,wine,13,178,3,hpelmnn,Bagging,1,Arithmetic Mean
+0.869048847609,wine,13,178,3,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.689833830711,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,2,Majority Voting
+0.960784313725,wine,13,178,3,hpelmnn,Random Networks,1,Arithmetic Mean
+0.956226719017,house_votes,48,435,2,hpelmnn,Bagging,1,Majority Voting
+0.906213818861,ionosphere,34,351,2,hpelmnn,Random Networks,4,Majority Voting
+0.835500610501,spect,44,267,2,hpelmnn,Random Networks,4,Arithmetic Mean
+0.926356589147,house_votes,48,435,2,hpelmnn,Random Subspace,1,Majority Voting
+0.802601284138,tic_tac_toe,27,958,2,hpelmnn,Random Networks,2,Majority Voting
+0.958552300413,house_votes,48,435,2,hpelmnn,Random Networks,1,Majority Voting
+0.947188664049,house_votes,48,435,2,hpelmnn,Bagging,1,Arithmetic Mean
+0.810014243082,tic_tac_toe,27,958,2,hpelmnn,Bagging,2,Arithmetic Mean
+0.897390289449,ionosphere,34,351,2,hpelmnn,Bagging,4,Arithmetic Mean
+0.889776502567,house_votes,48,435,2,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.949408537199,house_votes,48,435,2,hpelmnn,Random Networks,1,Arithmetic Mean
+0.693056610599,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.914789915966,ionosphere,34,351,2,hpelmnn,Bagging,6,Majority Voting
+0.975,soybean_small,72,47,4,hpelmnn,Bagging,1,Majority Voting
+0.88302054155,ionosphere,34,351,2,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.86,soybean_small,72,47,4,hpelmnn,Random Subspace,1,Majority Voting
+0.830826550913,tic_tac_toe,27,958,2,hpelmnn,Random Networks,2,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,1,Majority Voting
+0.86,iris,4,150,3,hpelmnn,Bagging,2,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,1,Arithmetic Mean
+0.84,soybean_small,72,47,4,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.886199813259,ionosphere,34,351,2,hpelmnn,Random Subspace,6,Majority Voting
+0.880807656396,ionosphere,34,351,2,hpelmnn,Random Networks,4,Arithmetic Mean
+0.64,iris,4,150,3,hpelmnn,Random Subspace,2,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,1,Arithmetic Mean
+0.853333333333,iris,4,150,3,hpelmnn,Random Networks,2,Majority Voting
+0.778795278795,spect,44,267,2,hpelmnn,Bagging,1,Majority Voting
+0.820278795279,spect,44,267,2,hpelmnn,Random Subspace,1,Majority Voting
+0.846666666667,iris,4,150,3,hpelmnn,Bagging,2,Arithmetic Mean
+0.830972730973,spect,44,267,2,hpelmnn,Random Networks,1,Majority Voting
+0.733333333333,iris,4,150,3,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.767816442816,spect,44,267,2,hpelmnn,Bagging,1,Arithmetic Mean
+0.905891690009,ionosphere,34,351,2,hpelmnn,Random Networks,6,Majority Voting
+0.853333333333,iris,4,150,3,hpelmnn,Random Networks,2,Arithmetic Mean
+0.864271568095,tic_tac_toe,27,958,2,hpelmnn,Bagging,4,Majority Voting
+0.937833247334,wine,13,178,3,hpelmnn,Bagging,2,Majority Voting
+0.875,soybean_small,72,47,4,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.872187822497,wine,13,178,3,hpelmnn,Random Subspace,2,Majority Voting
+0.707575510942,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,4,Majority Voting
+0.94963880289,wine,13,178,3,hpelmnn,Random Networks,2,Majority Voting
+0.886036414566,ionosphere,34,351,2,hpelmnn,Bagging,6,Arithmetic Mean
+0.977777777778,wine,13,178,3,hpelmnn,Bagging,2,Arithmetic Mean
+0.910674664603,wine,13,178,3,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.983625730994,wine,13,178,3,hpelmnn,Random Networks,2,Arithmetic Mean
+0.875014005602,ionosphere,34,351,2,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.829718416531,tic_tac_toe,27,958,2,hpelmnn,Random Networks,4,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,6,Arithmetic Mean
+0.95854978355,house_votes,48,435,2,hpelmnn,Bagging,2,Majority Voting
+0.908285512937,house_votes,48,435,2,hpelmnn,Random Subspace,2,Majority Voting
+0.843479155363,tic_tac_toe,27,958,2,hpelmnn,Bagging,4,Arithmetic Mean
+0.830423280423,spect,44,267,2,hpelmnn,Bagging,6,Majority Voting
+0.914626517274,ionosphere,34,351,2,hpelmnn,Random Networks,6,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,2,Majority Voting
+0.721291937963,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.831105006105,spect,44,267,2,hpelmnn,Random Subspace,6,Majority Voting
+0.95849944629,house_votes,48,435,2,hpelmnn,Bagging,2,Arithmetic Mean
+0.938100271821,house_votes,48,435,2,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.850641051727,tic_tac_toe,27,958,2,hpelmnn,Bagging,6,Majority Voting
+0.840213420148,tic_tac_toe,27,958,2,hpelmnn,Random Networks,4,Arithmetic Mean
+0.958660525521,house_votes,48,435,2,hpelmnn,Random Networks,2,Arithmetic Mean
+0.86,iris,4,150,3,hpelmnn,Bagging,4,Majority Voting
+0.827676027676,spect,44,267,2,hpelmnn,Random Networks,6,Majority Voting
+0.721248756556,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,6,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,2,Majority Voting
+0.666666666667,iris,4,150,3,hpelmnn,Random Subspace,4,Majority Voting
+0.88,soybean_small,72,47,4,hpelmnn,Random Subspace,2,Majority Voting
+0.846666666667,iris,4,150,3,hpelmnn,Random Networks,4,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,2,Majority Voting
+0.85349002849,spect,44,267,2,hpelmnn,Bagging,6,Arithmetic Mean
+0.866666666667,iris,4,150,3,hpelmnn,Bagging,4,Arithmetic Mean
+0.861112542955,tic_tac_toe,27,958,2,hpelmnn,Random Networks,6,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,2,Arithmetic Mean
+0.726666666667,iris,4,150,3,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.87,soybean_small,72,47,4,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.88,iris,4,150,3,hpelmnn,Random Networks,4,Arithmetic Mean
+0.842368742369,spect,44,267,2,hpelmnn,Random Subspace,6,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,2,Arithmetic Mean
+0.977416580667,wine,13,178,3,hpelmnn,Bagging,4,Majority Voting
+0.767826617827,spect,44,267,2,hpelmnn,Bagging,2,Majority Voting
+0.840277400977,tic_tac_toe,27,958,2,hpelmnn,Bagging,6,Arithmetic Mean
+0.820126170126,spect,44,267,2,hpelmnn,Random Subspace,2,Majority Voting
+0.932937736498,wine,13,178,3,hpelmnn,Random Subspace,4,Majority Voting
+0.842236467236,spect,44,267,2,hpelmnn,Random Networks,6,Arithmetic Mean
+0.972187822497,wine,13,178,3,hpelmnn,Random Networks,4,Majority Voting
+0.700371111413,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.977777777778,wine,13,178,3,hpelmnn,Bagging,4,Arithmetic Mean
+0.966339869281,wine,13,178,3,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.906540616246,ionosphere,34,351,2,hpelmnn,Bagging,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,8,Majority Voting
+0.852789270212,tic_tac_toe,27,958,2,hpelmnn,Random Networks,6,Arithmetic Mean
+0.988562091503,wine,13,178,3,hpelmnn,Random Networks,4,Arithmetic Mean
+0.88570961718,ionosphere,34,351,2,hpelmnn,Random Subspace,8,Majority Voting
+0.960772173563,house_votes,48,435,2,hpelmnn,Bagging,4,Majority Voting
+0.873333333333,iris,4,150,3,hpelmnn,Bagging,6,Majority Voting
+0.93571931944,house_votes,48,435,2,hpelmnn,Random Subspace,4,Majority Voting
+0.666666666667,iris,4,150,3,hpelmnn,Random Subspace,6,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,8,Arithmetic Mean
+0.905971055089,ionosphere,34,351,2,hpelmnn,Random Networks,8,Majority Voting
+0.84,iris,4,150,3,hpelmnn,Random Networks,6,Majority Voting
+0.9,soybean_small,72,47,4,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.95627957314,house_votes,48,435,2,hpelmnn,Random Networks,4,Majority Voting
+0.886666666667,iris,4,150,3,hpelmnn,Bagging,6,Arithmetic Mean
+0.900247432306,ionosphere,34,351,2,hpelmnn,Bagging,8,Arithmetic Mean
+0.958552300413,house_votes,48,435,2,hpelmnn,Bagging,4,Arithmetic Mean
+0.82,iris,4,150,3,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.949463908185,house_votes,48,435,2,hpelmnn,Random Subspace,4,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,8,Arithmetic Mean
+0.886666666667,iris,4,150,3,hpelmnn,Random Networks,6,Arithmetic Mean
+0.880728291317,ionosphere,34,351,2,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.954006845867,house_votes,48,435,2,hpelmnn,Random Networks,4,Arithmetic Mean
+0.983333333333,wine,13,178,3,hpelmnn,Bagging,6,Majority Voting
+0.944375644995,wine,13,178,3,hpelmnn,Random Subspace,6,Majority Voting
+0.827818477818,spect,44,267,2,hpelmnn,Bagging,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,4,Majority Voting
+0.908991596639,ionosphere,34,351,2,hpelmnn,Random Networks,8,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,4,Majority Voting
+0.983333333333,wine,13,178,3,hpelmnn,Random Networks,6,Majority Voting
+0.820390720391,spect,44,267,2,hpelmnn,Random Subspace,8,Majority Voting
+0.983625730994,wine,13,178,3,hpelmnn,Bagging,6,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,4,Majority Voting
+0.971895424837,wine,13,178,3,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.858986254296,tic_tac_toe,27,958,2,hpelmnn,Bagging,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,4,Arithmetic Mean
+1.0,wine,13,178,3,hpelmnn,Random Networks,6,Arithmetic Mean
+0.827665852666,spect,44,267,2,hpelmnn,Random Networks,8,Majority Voting
+0.91,soybean_small,72,47,4,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.693045871767,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,4,Arithmetic Mean
+0.835093610094,spect,44,267,2,hpelmnn,Bagging,8,Arithmetic Mean
+0.949355683077,house_votes,48,435,2,hpelmnn,Bagging,6,Majority Voting
+0.842368742369,spect,44,267,2,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.947027584818,house_votes,48,435,2,hpelmnn,Random Subspace,6,Majority Voting
+0.856078291734,tic_tac_toe,27,958,2,hpelmnn,Random Networks,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,12,Majority Voting
+0.849643874644,spect,44,267,2,hpelmnn,Random Networks,8,Arithmetic Mean
+0.95627957314,house_votes,48,435,2,hpelmnn,Random Networks,6,Majority Voting
+0.849632053717,tic_tac_toe,27,958,2,hpelmnn,Bagging,8,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,12,Majority Voting
+0.95627957314,house_votes,48,435,2,hpelmnn,Bagging,6,Arithmetic Mean
+0.704603341472,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.900494864613,ionosphere,34,351,2,hpelmnn,Bagging,12,Majority Voting
+0.94242927615,house_votes,48,435,2,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.872646500271,tic_tac_toe,27,958,2,hpelmnn,Random Networks,8,Arithmetic Mean
+0.874850606909,ionosphere,34,351,2,hpelmnn,Random Subspace,12,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,6,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,12,Majority Voting
+0.86,iris,4,150,3,hpelmnn,Bagging,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,6,Majority Voting
+0.706666666667,iris,4,150,3,hpelmnn,Random Subspace,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,6,Majority Voting
+0.906050420168,ionosphere,34,351,2,hpelmnn,Random Networks,12,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Random Networks,8,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Bagging,8,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,6,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,12,Arithmetic Mean
+0.766666666667,iris,4,150,3,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.903356676004,ionosphere,34,351,2,hpelmnn,Bagging,12,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,6,Arithmetic Mean
+0.86,iris,4,150,3,hpelmnn,Random Networks,8,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.988888888889,wine,13,178,3,hpelmnn,Bagging,8,Majority Voting
+0.895186741363,ionosphere,34,351,2,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.960382266942,wine,13,178,3,hpelmnn,Random Subspace,8,Majority Voting
+0.940156548877,house_votes,48,435,2,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.983006535948,wine,13,178,3,hpelmnn,Random Networks,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,12,Arithmetic Mean
+0.911769374416,ionosphere,34,351,2,hpelmnn,Random Networks,12,Arithmetic Mean
+0.983625730994,wine,13,178,3,hpelmnn,Bagging,8,Arithmetic Mean
+0.961076711386,wine,13,178,3,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.842928367928,spect,44,267,2,hpelmnn,Bagging,12,Majority Voting
+0.988888888889,wine,13,178,3,hpelmnn,Random Networks,8,Arithmetic Mean
+0.871508862362,tic_tac_toe,27,958,2,hpelmnn,Bagging,12,Majority Voting
+0.820115995116,spect,44,267,2,hpelmnn,Random Subspace,12,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,15,Arithmetic Mean
+0.958552300413,house_votes,48,435,2,hpelmnn,Bagging,8,Majority Voting
+0.709833378549,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,12,Majority Voting
+0.834686609687,spect,44,267,2,hpelmnn,Random Networks,12,Majority Voting
+0.940372999094,house_votes,48,435,2,hpelmnn,Random Subspace,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,15,Majority Voting
+0.838797313797,spect,44,267,2,hpelmnn,Bagging,12,Arithmetic Mean
+0.85806384518,tic_tac_toe,27,958,2,hpelmnn,Random Networks,12,Majority Voting
+0.949408537199,house_votes,48,435,2,hpelmnn,Random Networks,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,15,Majority Voting
+0.846214896215,spect,44,267,2,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.95627957314,house_votes,48,435,2,hpelmnn,Bagging,8,Arithmetic Mean
+0.86320638904,tic_tac_toe,27,958,2,hpelmnn,Bagging,12,Arithmetic Mean
+0.940264773986,house_votes,48,435,2,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.84305046805,spect,44,267,2,hpelmnn,Random Networks,12,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,15,Majority Voting
+0.72461272382,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.95627957314,house_votes,48,435,2,hpelmnn,Random Networks,8,Arithmetic Mean
+0.903193277311,ionosphere,34,351,2,hpelmnn,Bagging,15,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,8,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,15,Arithmetic Mean
+0.883258636788,ionosphere,34,351,2,hpelmnn,Random Subspace,15,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,8,Majority Voting
+0.862165626696,tic_tac_toe,27,958,2,hpelmnn,Random Networks,12,Arithmetic Mean
+0.96,soybean_small,72,47,4,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.893333333333,iris,4,150,3,hpelmnn,Bagging,12,Majority Voting
+0.891918767507,ionosphere,34,351,2,hpelmnn,Random Networks,15,Majority Voting
+0.7,iris,4,150,3,hpelmnn,Random Subspace,12,Majority Voting
+0.873333333333,iris,4,150,3,hpelmnn,Random Networks,12,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,15,Arithmetic Mean
+0.951681264472,house_votes,48,435,2,hpelmnn,Random Networks,20,Majority Voting
+0.909154995331,ionosphere,34,351,2,hpelmnn,Bagging,15,Arithmetic Mean
+0.886666666667,iris,4,150,3,hpelmnn,Bagging,12,Arithmetic Mean
+0.76,iris,4,150,3,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.877866479925,ionosphere,34,351,2,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.866666666667,iris,4,150,3,hpelmnn,Random Networks,12,Arithmetic Mean
+0.827808302808,spect,44,267,2,hpelmnn,Bagging,15,Majority Voting
+0.977450980392,wine,13,178,3,hpelmnn,Bagging,12,Majority Voting
+0.831512006512,spect,44,267,2,hpelmnn,Random Subspace,15,Majority Voting
+0.903109243697,ionosphere,34,351,2,hpelmnn,Random Networks,15,Arithmetic Mean
+0.951681264472,house_votes,48,435,2,hpelmnn,Bagging,20,Arithmetic Mean
+0.972187822497,wine,13,178,3,hpelmnn,Random Subspace,12,Majority Voting
+0.983006535948,wine,13,178,3,hpelmnn,Random Networks,12,Majority Voting
+0.83893976394,spect,44,267,2,hpelmnn,Random Networks,15,Majority Voting
+0.944810228531,house_votes,48,435,2,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.867461001085,tic_tac_toe,27,958,2,hpelmnn,Bagging,15,Majority Voting
+0.978070175439,wine,13,178,3,hpelmnn,Bagging,12,Arithmetic Mean
+0.972187822497,wine,13,178,3,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.846347171347,spect,44,267,2,hpelmnn,Bagging,15,Arithmetic Mean
+0.710884879725,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,15,Majority Voting
+0.983625730994,wine,13,178,3,hpelmnn,Random Networks,12,Arithmetic Mean
+0.846214896215,spect,44,267,2,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.951681264472,house_votes,48,435,2,hpelmnn,Random Networks,20,Arithmetic Mean
+0.951681264472,house_votes,48,435,2,hpelmnn,Bagging,12,Majority Voting
+0.869435589618,tic_tac_toe,27,958,2,hpelmnn,Random Networks,15,Majority Voting
+0.84648962149,spect,44,267,2,hpelmnn,Random Networks,15,Arithmetic Mean
+0.942484647136,house_votes,48,435,2,hpelmnn,Random Subspace,12,Majority Voting
+0.865269601194,tic_tac_toe,27,958,2,hpelmnn,Bagging,15,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,20,Majority Voting
+0.95627957314,house_votes,48,435,2,hpelmnn,Random Networks,12,Majority Voting
+0.894533146592,ionosphere,34,351,2,hpelmnn,Bagging,20,Majority Voting
+0.711818931995,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,15,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,20,Majority Voting
+0.883426704015,ionosphere,34,351,2,hpelmnn,Random Subspace,20,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,12,Arithmetic Mean
+0.94242927615,house_votes,48,435,2,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.859061426117,tic_tac_toe,27,958,2,hpelmnn,Random Networks,15,Arithmetic Mean
+0.90327264239,ionosphere,34,351,2,hpelmnn,Random Networks,20,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,20,Majority Voting
+0.86,iris,4,150,3,hpelmnn,Bagging,15,Majority Voting
+0.95627957314,house_votes,48,435,2,hpelmnn,Random Networks,12,Arithmetic Mean
+0.706666666667,iris,4,150,3,hpelmnn,Random Subspace,15,Majority Voting
+0.866666666667,iris,4,150,3,hpelmnn,Random Networks,15,Majority Voting
+0.90033146592,ionosphere,34,351,2,hpelmnn,Bagging,20,Arithmetic Mean
+0.873333333333,iris,4,150,3,hpelmnn,Bagging,15,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,20,Arithmetic Mean
+0.786666666667,iris,4,150,3,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.886363211951,ionosphere,34,351,2,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.98,soybean_small,72,47,4,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.88,iris,4,150,3,hpelmnn,Random Networks,15,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,25,Majority Voting
+0.983006535948,wine,13,178,3,hpelmnn,Bagging,15,Majority Voting
+0.983006535948,wine,13,178,3,hpelmnn,Random Subspace,15,Majority Voting
+0.897801120448,ionosphere,34,351,2,hpelmnn,Random Networks,20,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,20,Arithmetic Mean
+0.977450980392,wine,13,178,3,hpelmnn,Random Networks,15,Majority Voting
+0.946974730696,house_votes,48,435,2,hpelmnn,Random Subspace,25,Majority Voting
+0.977777777778,wine,13,178,3,hpelmnn,Bagging,15,Arithmetic Mean
+0.983006535948,wine,13,178,3,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.831654456654,spect,44,267,2,hpelmnn,Bagging,20,Majority Voting
+0.871497445288,tic_tac_toe,27,958,2,hpelmnn,Bagging,20,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,15,Arithmetic Mean
+0.834951159951,spect,44,267,2,hpelmnn,Random Subspace,20,Majority Voting
+0.951681264472,house_votes,48,435,2,hpelmnn,Random Networks,25,Majority Voting
+0.708769782058,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,20,Majority Voting
+0.951681264472,house_votes,48,435,2,hpelmnn,Bagging,15,Majority Voting
+0.84594017094,spect,44,267,2,hpelmnn,Random Networks,20,Majority Voting
+0.951736635458,house_votes,48,435,2,hpelmnn,Random Subspace,15,Majority Voting
+0.863217580033,tic_tac_toe,27,958,2,hpelmnn,Random Networks,20,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,25,Arithmetic Mean
+0.846214896215,spect,44,267,2,hpelmnn,Bagging,20,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,15,Majority Voting
+0.951628410349,house_votes,48,435,2,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.846214896215,spect,44,267,2,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.860157917345,tic_tac_toe,27,958,2,hpelmnn,Bagging,20,Arithmetic Mean
+0.956226719017,house_votes,48,435,2,hpelmnn,Bagging,15,Arithmetic Mean
+0.842643467643,spect,44,267,2,hpelmnn,Random Networks,20,Arithmetic Mean
+0.710886010128,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.983006535948,wine,13,178,3,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.951681264472,house_votes,48,435,2,hpelmnn,Random Networks,25,Arithmetic Mean
+0.98918128655,wine,13,178,3,hpelmnn,Random Networks,30,Arithmetic Mean
+0.870651112317,tic_tac_toe,27,958,2,hpelmnn,Random Networks,20,Arithmetic Mean
+0.900415499533,ionosphere,34,351,2,hpelmnn,Bagging,25,Majority Voting
+0.886666666667,iris,4,150,3,hpelmnn,Bagging,20,Majority Voting
+0.880807656396,ionosphere,34,351,2,hpelmnn,Random Subspace,25,Majority Voting
+0.693333333333,iris,4,150,3,hpelmnn,Random Subspace,20,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,25,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Random Networks,20,Majority Voting
+0.897553688142,ionosphere,34,351,2,hpelmnn,Random Networks,25,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,25,Majority Voting
+0.95849944629,house_votes,48,435,2,hpelmnn,Bagging,30,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Bagging,20,Arithmetic Mean
+0.82,iris,4,150,3,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.897390289449,ionosphere,34,351,2,hpelmnn,Bagging,25,Arithmetic Mean
+0.88,iris,4,150,3,hpelmnn,Random Networks,20,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,25,Majority Voting
+0.935394644116,house_votes,48,435,2,hpelmnn,Random Subspace,30,Majority Voting
+0.983625730994,wine,13,178,3,hpelmnn,Bagging,20,Majority Voting
+0.883342670401,ionosphere,34,351,2,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.966339869281,wine,13,178,3,hpelmnn,Random Subspace,20,Majority Voting
+0.983333333333,wine,13,178,3,hpelmnn,Random Networks,20,Majority Voting
+0.903356676004,ionosphere,34,351,2,hpelmnn,Random Networks,25,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,25,Arithmetic Mean
+0.951681264472,house_votes,48,435,2,hpelmnn,Random Networks,30,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,20,Arithmetic Mean
+0.975,soybean_small,72,47,4,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.971895424837,wine,13,178,3,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,20,Arithmetic Mean
+0.867395437692,tic_tac_toe,27,958,2,hpelmnn,Bagging,25,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,30,Arithmetic Mean
+0.700469117381,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,25,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,25,Arithmetic Mean
+0.951681264472,house_votes,48,435,2,hpelmnn,Bagging,20,Majority Voting
+0.944810228531,house_votes,48,435,2,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.84305046805,spect,44,267,2,hpelmnn,Bagging,25,Majority Voting
+0.942590355381,house_votes,48,435,2,hpelmnn,Random Subspace,20,Majority Voting
+0.86214347079,tic_tac_toe,27,958,2,hpelmnn,Random Networks,25,Majority Voting
+0.827808302808,spect,44,267,2,hpelmnn,Random Subspace,25,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,40,Majority Voting
+0.870498960029,tic_tac_toe,27,958,2,hpelmnn,Bagging,25,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,30,Arithmetic Mean
+0.839072039072,spect,44,267,2,hpelmnn,Random Networks,25,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,40,Arithmetic Mean
+0.709821735395,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.84648962149,spect,44,267,2,hpelmnn,Bagging,25,Arithmetic Mean
+0.988888888889,wine,13,178,3,hpelmnn,Random Subspace,40,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,30,Majority Voting
+0.838522588523,spect,44,267,2,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.864302428106,tic_tac_toe,27,958,2,hpelmnn,Random Networks,25,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,30,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,40,Arithmetic Mean
+0.846666666667,iris,4,150,3,hpelmnn,Bagging,25,Majority Voting
+0.835368335368,spect,44,267,2,hpelmnn,Random Networks,25,Arithmetic Mean
+0.666666666667,iris,4,150,3,hpelmnn,Random Subspace,25,Majority Voting
+0.866666666667,iris,4,150,3,hpelmnn,Random Networks,25,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,30,Majority Voting
+0.897553688142,ionosphere,34,351,2,hpelmnn,Bagging,30,Majority Voting
+0.893333333333,iris,4,150,3,hpelmnn,Bagging,25,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,40,Majority Voting
+0.766666666667,iris,4,150,3,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.894864612512,ionosphere,34,351,2,hpelmnn,Random Subspace,30,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,30,Arithmetic Mean
+0.886666666667,iris,4,150,3,hpelmnn,Random Networks,25,Arithmetic Mean
+0.905,soybean_small,72,47,4,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.903193277311,ionosphere,34,351,2,hpelmnn,Random Networks,30,Majority Voting
+0.983625730994,wine,13,178,3,hpelmnn,Bagging,25,Majority Voting
+0.942484647136,house_votes,48,435,2,hpelmnn,Random Subspace,40,Majority Voting
+0.972187822497,wine,13,178,3,hpelmnn,Random Subspace,25,Majority Voting
+0.90025210084,ionosphere,34,351,2,hpelmnn,Bagging,30,Arithmetic Mean
+0.988562091503,wine,13,178,3,hpelmnn,Random Networks,25,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,30,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,25,Arithmetic Mean
+0.892161531279,ionosphere,34,351,2,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.966632266942,wine,13,178,3,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.956226719017,house_votes,48,435,2,hpelmnn,Random Networks,40,Majority Voting
+0.842918192918,spect,44,267,2,hpelmnn,Bagging,30,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,25,Arithmetic Mean
+0.900494864613,ionosphere,34,351,2,hpelmnn,Random Networks,30,Arithmetic Mean
+0.834676434676,spect,44,267,2,hpelmnn,Random Subspace,30,Majority Voting
+0.988562091503,wine,13,178,3,hpelmnn,Bagging,50,Majority Voting
+0.874753119913,tic_tac_toe,27,958,2,hpelmnn,Bagging,30,Majority Voting
+0.853897028897,spect,44,267,2,hpelmnn,Random Networks,30,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,40,Arithmetic Mean
+0.977450980392,wine,13,178,3,hpelmnn,Random Subspace,50,Majority Voting
+0.715096310364,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,30,Majority Voting
+0.846621896622,spect,44,267,2,hpelmnn,Bagging,30,Arithmetic Mean
+0.944810228531,house_votes,48,435,2,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,50,Majority Voting
+0.842368742369,spect,44,267,2,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.872528599204,tic_tac_toe,27,958,2,hpelmnn,Random Networks,30,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,50,Arithmetic Mean
+0.835500610501,spect,44,267,2,hpelmnn,Random Networks,30,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,40,Arithmetic Mean
+0.865366476759,tic_tac_toe,27,958,2,hpelmnn,Bagging,30,Arithmetic Mean
+0.977777777778,wine,13,178,3,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.897717086835,ionosphere,34,351,2,hpelmnn,Bagging,40,Majority Voting
+0.721248530476,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,30,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,40,Majority Voting
+0.988888888889,wine,13,178,3,hpelmnn,Random Networks,50,Arithmetic Mean
+0.897637721755,ionosphere,34,351,2,hpelmnn,Random Subspace,40,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,40,Majority Voting
+0.873646115934,tic_tac_toe,27,958,2,hpelmnn,Random Networks,30,Arithmetic Mean
+0.911769374416,ionosphere,34,351,2,hpelmnn,Random Networks,40,Majority Voting
+0.866666666667,iris,4,150,3,hpelmnn,Bagging,30,Majority Voting
+0.666666666667,iris,4,150,3,hpelmnn,Random Subspace,30,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,50,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Random Networks,30,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,40,Majority Voting
+0.894449112979,ionosphere,34,351,2,hpelmnn,Bagging,40,Arithmetic Mean
+0.886666666667,iris,4,150,3,hpelmnn,Bagging,30,Arithmetic Mean
+0.793333333333,iris,4,150,3,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.892161531279,ionosphere,34,351,2,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.953901137622,house_votes,48,435,2,hpelmnn,Random Subspace,50,Majority Voting
+0.886666666667,iris,4,150,3,hpelmnn,Random Networks,30,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,40,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,30,Majority Voting
+0.900578898226,ionosphere,34,351,2,hpelmnn,Random Networks,40,Arithmetic Mean
+0.98,soybean_small,72,47,4,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.983006535948,wine,13,178,3,hpelmnn,Random Subspace,30,Majority Voting
+0.988888888889,wine,13,178,3,hpelmnn,Random Networks,30,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,50,Majority Voting
+0.868524371496,tic_tac_toe,27,958,2,hpelmnn,Bagging,40,Majority Voting
+0.988888888889,wine,13,178,3,hpelmnn,Bagging,30,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,40,Arithmetic Mean
+0.720250271297,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,40,Majority Voting
+0.793333333333,iris,4,150,3,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.839072039072,spect,44,267,2,hpelmnn,Bagging,40,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,50,Arithmetic Mean
+0.84648962149,spect,44,267,2,hpelmnn,Random Subspace,40,Majority Voting
+0.9,iris,4,150,3,hpelmnn,Random Networks,60,Arithmetic Mean
+0.875762570085,tic_tac_toe,27,958,2,hpelmnn,Random Networks,40,Majority Voting
+0.947082955804,house_votes,48,435,2,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,60,Majority Voting
+0.838654863655,spect,44,267,2,hpelmnn,Random Networks,40,Majority Voting
+0.867351578043,tic_tac_toe,27,958,2,hpelmnn,Bagging,40,Arithmetic Mean
+0.983006535948,wine,13,178,3,hpelmnn,Random Subspace,60,Majority Voting
+0.842643467643,spect,44,267,2,hpelmnn,Bagging,40,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,50,Arithmetic Mean
+0.720336860192,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,60,Majority Voting
+0.846214896215,spect,44,267,2,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,60,Arithmetic Mean
+0.84648962149,spect,44,267,2,hpelmnn,Random Networks,40,Arithmetic Mean
+0.870564523422,tic_tac_toe,27,958,2,hpelmnn,Random Networks,40,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,50,Majority Voting
+0.873333333333,iris,4,150,3,hpelmnn,Bagging,40,Majority Voting
+0.977450980392,wine,13,178,3,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.894533146592,ionosphere,34,351,2,hpelmnn,Bagging,50,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,50,Majority Voting
+0.666666666667,iris,4,150,3,hpelmnn,Random Subspace,40,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,60,Arithmetic Mean
+0.873333333333,iris,4,150,3,hpelmnn,Random Networks,40,Majority Voting
+0.894943977591,ionosphere,34,351,2,hpelmnn,Random Subspace,50,Majority Voting
+0.886666666667,iris,4,150,3,hpelmnn,Bagging,40,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,50,Majority Voting
+0.8,iris,4,150,3,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.90033146592,ionosphere,34,351,2,hpelmnn,Random Networks,50,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Random Networks,40,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,60,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,40,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,50,Arithmetic Mean
+0.906134453782,ionosphere,34,351,2,hpelmnn,Bagging,50,Arithmetic Mean
+0.983006535948,wine,13,178,3,hpelmnn,Random Subspace,40,Majority Voting
+0.951628410349,house_votes,48,435,2,hpelmnn,Random Subspace,60,Majority Voting
+0.935,soybean_small,72,47,4,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.895186741363,ionosphere,34,351,2,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.866666666667,iris,4,150,3,hpelmnn,Random Networks,70,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,50,Arithmetic Mean
+0.886666666667,iris,4,150,3,hpelmnn,Bagging,70,Arithmetic Mean
+0.903109243697,ionosphere,34,351,2,hpelmnn,Random Networks,50,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,60,Majority Voting
+0.8,iris,4,150,3,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.831247456247,spect,44,267,2,hpelmnn,Bagging,50,Majority Voting
+0.863184685296,tic_tac_toe,27,958,2,hpelmnn,Bagging,50,Majority Voting
+0.893333333333,iris,4,150,3,hpelmnn,Random Networks,70,Arithmetic Mean
+0.827808302808,spect,44,267,2,hpelmnn,Random Subspace,50,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,60,Arithmetic Mean
+0.707793000543,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,50,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,70,Majority Voting
+0.839072039072,spect,44,267,2,hpelmnn,Random Networks,50,Majority Voting
+0.951628410349,house_votes,48,435,2,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.972187822497,wine,13,178,3,hpelmnn,Random Subspace,70,Majority Voting
+0.876793045759,tic_tac_toe,27,958,2,hpelmnn,Random Networks,50,Majority Voting
+0.842633292633,spect,44,267,2,hpelmnn,Bagging,50,Arithmetic Mean
+0.983006535948,wine,13,178,3,hpelmnn,Random Networks,70,Majority Voting
+0.835225885226,spect,44,267,2,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.87044481371,tic_tac_toe,27,958,2,hpelmnn,Bagging,50,Arithmetic Mean
+0.988562091503,wine,13,178,3,hpelmnn,Bagging,70,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,60,Arithmetic Mean
+0.846214896215,spect,44,267,2,hpelmnn,Random Networks,50,Arithmetic Mean
+0.707793000543,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.983333333333,wine,13,178,3,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.903436041083,ionosphere,34,351,2,hpelmnn,Bagging,60,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,60,Majority Voting
+0.873645437692,tic_tac_toe,27,958,2,hpelmnn,Random Networks,50,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,70,Arithmetic Mean
+0.883506069094,ionosphere,34,351,2,hpelmnn,Random Subspace,60,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Bagging,50,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,60,Majority Voting
+0.68,iris,4,150,3,hpelmnn,Random Subspace,50,Majority Voting
+0.886666666667,iris,4,150,3,hpelmnn,Random Networks,50,Majority Voting
+0.900578898226,ionosphere,34,351,2,hpelmnn,Random Networks,60,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,70,Majority Voting
+0.893333333333,iris,4,150,3,hpelmnn,Bagging,50,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,60,Majority Voting
+0.793333333333,iris,4,150,3,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.903188608777,ionosphere,34,351,2,hpelmnn,Bagging,60,Arithmetic Mean
+0.942590355381,house_votes,48,435,2,hpelmnn,Random Subspace,70,Majority Voting
+0.893333333333,iris,4,150,3,hpelmnn,Random Networks,50,Arithmetic Mean
+0.891918767507,ionosphere,34,351,2,hpelmnn,Random Subspace,60,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,60,Arithmetic Mean
+0.873333333333,iris,4,150,3,hpelmnn,Bagging,100,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.894533146592,ionosphere,34,351,2,hpelmnn,Random Networks,60,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,70,Majority Voting
+0.673333333333,iris,4,150,3,hpelmnn,Random Subspace,100,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,60,Arithmetic Mean
+0.873634924941,tic_tac_toe,27,958,2,hpelmnn,Bagging,60,Majority Voting
+0.853333333333,iris,4,150,3,hpelmnn,Random Networks,100,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,70,Arithmetic Mean
+0.699437511304,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,60,Majority Voting
+0.83892958893,spect,44,267,2,hpelmnn,Bagging,60,Majority Voting
+0.893333333333,iris,4,150,3,hpelmnn,Bagging,100,Arithmetic Mean
+0.940156548877,house_votes,48,435,2,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.846214896215,spect,44,267,2,hpelmnn,Random Subspace,60,Majority Voting
+0.813333333333,iris,4,150,3,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.876879408573,tic_tac_toe,27,958,2,hpelmnn,Random Networks,60,Majority Voting
+0.842918192918,spect,44,267,2,hpelmnn,Random Networks,60,Majority Voting
+0.886666666667,iris,4,150,3,hpelmnn,Random Networks,100,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,70,Arithmetic Mean
+0.876814297341,tic_tac_toe,27,958,2,hpelmnn,Bagging,60,Arithmetic Mean
+0.842501017501,spect,44,267,2,hpelmnn,Bagging,60,Arithmetic Mean
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,100,Majority Voting
+0.71084237656,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.842368742369,spect,44,267,2,hpelmnn,Random Subspace,60,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,70,Majority Voting
+0.983006535948,wine,13,178,3,hpelmnn,Random Subspace,100,Majority Voting
+0.872626153011,tic_tac_toe,27,958,2,hpelmnn,Random Networks,60,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,70,Majority Voting
+0.84648962149,spect,44,267,2,hpelmnn,Random Networks,60,Arithmetic Mean
+0.853333333333,iris,4,150,3,hpelmnn,Bagging,60,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,100,Majority Voting
+0.673333333333,iris,4,150,3,hpelmnn,Random Subspace,60,Majority Voting
+0.894612511671,ionosphere,34,351,2,hpelmnn,Bagging,70,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,70,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Bagging,100,Arithmetic Mean
+0.86,iris,4,150,3,hpelmnn,Random Networks,60,Majority Voting
+0.8920821662,ionosphere,34,351,2,hpelmnn,Random Subspace,70,Majority Voting
+0.88,iris,4,150,3,hpelmnn,Bagging,60,Arithmetic Mean
+0.972187822497,wine,13,178,3,hpelmnn,Random Subspace,100,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,70,Arithmetic Mean
+0.906050420168,ionosphere,34,351,2,hpelmnn,Random Networks,70,Majority Voting
+0.994444444444,wine,13,178,3,hpelmnn,Random Networks,100,Arithmetic Mean
+0.96,soybean_small,72,47,4,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.906050420168,ionosphere,34,351,2,hpelmnn,Bagging,70,Arithmetic Mean
+0.903520074697,ionosphere,34,351,2,hpelmnn,Random Subspace,70,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,70,Arithmetic Mean
+0.95627957314,house_votes,48,435,2,hpelmnn,Bagging,100,Majority Voting
+0.900415499533,ionosphere,34,351,2,hpelmnn,Random Networks,70,Arithmetic Mean
+0.842918192918,spect,44,267,2,hpelmnn,Bagging,70,Majority Voting
+0.875783821668,tic_tac_toe,27,958,2,hpelmnn,Bagging,70,Majority Voting
+0.944702003423,house_votes,48,435,2,hpelmnn,Random Subspace,100,Majority Voting
+0.838522588523,spect,44,267,2,hpelmnn,Random Subspace,70,Majority Voting
+0.704678965455,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,70,Majority Voting
+0.867341291373,tic_tac_toe,27,958,2,hpelmnn,Random Networks,70,Majority Voting
+0.842501017501,spect,44,267,2,hpelmnn,Random Networks,70,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,100,Majority Voting
+0.874709034183,tic_tac_toe,27,958,2,hpelmnn,Bagging,70,Arithmetic Mean
+0.835368335368,spect,44,267,2,hpelmnn,Bagging,70,Arithmetic Mean
+0.713001333876,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.842368742369,spect,44,267,2,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.953953991745,house_votes,48,435,2,hpelmnn,Bagging,100,Arithmetic Mean
+0.842918192918,spect,44,267,2,hpelmnn,Random Networks,70,Arithmetic Mean
+0.883011055345,tic_tac_toe,27,958,2,hpelmnn,Random Networks,70,Arithmetic Mean
+0.893333333333,iris,4,150,3,hpelmnn,Bagging,70,Majority Voting
+0.891671335201,ionosphere,34,351,2,hpelmnn,Bagging,100,Majority Voting
+0.947082955804,house_votes,48,435,2,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.68,iris,4,150,3,hpelmnn,Random Subspace,70,Majority Voting
+0.888977591036,ionosphere,34,351,2,hpelmnn,Random Subspace,100,Majority Voting
+0.953953991745,house_votes,48,435,2,hpelmnn,Random Networks,100,Arithmetic Mean
+0.894612511671,ionosphere,34,351,2,hpelmnn,Random Networks,100,Majority Voting
+0.897637721755,ionosphere,34,351,2,hpelmnn,Bagging,100,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,100,Majority Voting
+0.889056956116,ionosphere,34,351,2,hpelmnn,Random Subspace,100,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,100,Majority Voting
+0.894533146592,ionosphere,34,351,2,hpelmnn,Random Networks,100,Arithmetic Mean
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,100,Majority Voting
+0.874742155001,tic_tac_toe,27,958,2,hpelmnn,Bagging,100,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Bagging,100,Arithmetic Mean
+0.706675483813,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,100,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.873700262254,tic_tac_toe,27,958,2,hpelmnn,Random Networks,100,Majority Voting
+1.0,soybean_small,72,47,4,hpelmnn,Random Networks,100,Arithmetic Mean
+0.872615188099,tic_tac_toe,27,958,2,hpelmnn,Bagging,100,Arithmetic Mean
+0.839072039072,spect,44,267,2,hpelmnn,Bagging,100,Majority Voting
+0.842368742369,spect,44,267,2,hpelmnn,Random Subspace,100,Majority Voting
+0.705687737385,tic_tac_toe,27,958,2,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.842643467643,spect,44,267,2,hpelmnn,Random Networks,100,Majority Voting
+0.879907306927,tic_tac_toe,27,958,2,hpelmnn,Random Networks,100,Arithmetic Mean
+0.835225885226,spect,44,267,2,hpelmnn,Bagging,100,Arithmetic Mean
+0.842368742369,spect,44,267,2,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.842918192918,spect,44,267,2,hpelmnn,Random Networks,100,Arithmetic Mean
+0.928181974544,dermatology,130,358,6,hpelmnn,Bagging,1,Majority Voting
+0.921207430341,dermatology,130,358,6,hpelmnn,Random Subspace,1,Majority Voting
+0.799550357867,urban_land_cover,147,675,9,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.803774562363,urban_land_cover,147,675,9,hpelmnn,Random Networks,1,Arithmetic Mean
+0.966941864465,dermatology,130,358,6,hpelmnn,Random Networks,1,Majority Voting
+0.941288269694,dermatology,130,358,6,hpelmnn,Bagging,1,Arithmetic Mean
+0.916597867217,dermatology,130,358,6,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.927106983144,dermatology,130,358,6,hpelmnn,Bagging,2,Majority Voting
+0.972024423805,dermatology,130,358,6,hpelmnn,Random Networks,1,Arithmetic Mean
+0.858052884615,crx,46,653,2,hpelmnn,Bagging,1,Majority Voting
+0.7831002331,crx,46,653,2,hpelmnn,Random Subspace,1,Majority Voting
+0.919246646027,dermatology,130,358,6,hpelmnn,Random Subspace,2,Majority Voting
+0.859141899767,crx,46,653,2,hpelmnn,Random Networks,1,Majority Voting
+0.867048368298,crx,46,653,2,hpelmnn,Bagging,1,Arithmetic Mean
+0.756940559441,crx,46,653,2,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.870174096737,crx,46,653,2,hpelmnn,Random Networks,1,Arithmetic Mean
+0.818442797472,urban_land_cover,147,675,9,hpelmnn,Random Networks,2,Arithmetic Mean
+0.840909090909,thyroid,5,215,3,hpelmnn,Bagging,1,Majority Voting
+0.758008658009,thyroid,5,215,3,hpelmnn,Random Subspace,1,Majority Voting
+0.846103896104,thyroid,5,215,3,hpelmnn,Random Networks,1,Majority Voting
+0.845670995671,thyroid,5,215,3,hpelmnn,Bagging,1,Arithmetic Mean
+0.980374957,dermatology,130,358,6,hpelmnn,Random Networks,2,Majority Voting
+0.762770562771,thyroid,5,215,3,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.836363636364,thyroid,5,215,3,hpelmnn,Random Networks,1,Arithmetic Mean
+0.81137244775,urban_land_cover,147,675,9,hpelmnn,Bagging,4,Arithmetic Mean
+0.960896112831,dermatology,130,358,6,hpelmnn,Bagging,2,Arithmetic Mean
+0.782092644727,urban_land_cover,147,675,9,hpelmnn,Bagging,1,Majority Voting
+0.947187822497,dermatology,130,358,6,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.790856560549,urban_land_cover,147,675,9,hpelmnn,Random Subspace,1,Majority Voting
+0.969427244582,dermatology,130,358,6,hpelmnn,Bagging,4,Majority Voting
+0.824917130716,urban_land_cover,147,675,9,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.952726178191,dermatology,130,358,6,hpelmnn,Random Subspace,4,Majority Voting
+0.980684554524,dermatology,130,358,6,hpelmnn,Random Networks,2,Arithmetic Mean
+0.854738490676,crx,46,653,2,hpelmnn,Bagging,2,Majority Voting
+0.797984153748,urban_land_cover,147,675,9,hpelmnn,Random Networks,1,Majority Voting
+0.733503787879,crx,46,653,2,hpelmnn,Random Subspace,2,Majority Voting
+0.866883741259,crx,46,653,2,hpelmnn,Random Networks,2,Majority Voting
+0.86091710373,crx,46,653,2,hpelmnn,Bagging,2,Arithmetic Mean
+0.753281006123,urban_land_cover,147,675,9,hpelmnn,Bagging,1,Arithmetic Mean
+0.802583041958,crx,46,653,2,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.870174096737,crx,46,653,2,hpelmnn,Random Networks,2,Arithmetic Mean
+0.785622241548,urban_land_cover,147,675,9,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.803896103896,thyroid,5,215,3,hpelmnn,Bagging,2,Majority Voting
+0.743939393939,thyroid,5,215,3,hpelmnn,Random Subspace,2,Majority Voting
+0.977597179223,dermatology,130,358,6,hpelmnn,Random Networks,4,Majority Voting
+0.827705627706,thyroid,5,215,3,hpelmnn,Random Networks,2,Majority Voting
+0.84632034632,thyroid,5,215,3,hpelmnn,Bagging,2,Arithmetic Mean
+0.734632034632,thyroid,5,215,3,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.836796536797,thyroid,5,215,3,hpelmnn,Random Networks,2,Arithmetic Mean
+0.972041623667,dermatology,130,358,6,hpelmnn,Bagging,4,Arithmetic Mean
+0.758890754961,urban_land_cover,147,675,9,hpelmnn,Bagging,2,Majority Voting
+0.846566588637,urban_land_cover,147,675,9,hpelmnn,Random Networks,4,Arithmetic Mean
+0.969117647059,dermatology,130,358,6,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.793520711895,urban_land_cover,147,675,9,hpelmnn,Random Subspace,2,Majority Voting
+0.972187822497,dermatology,130,358,6,hpelmnn,Random Networks,4,Arithmetic Mean
+0.818682563389,urban_land_cover,147,675,9,hpelmnn,Random Networks,2,Majority Voting
+0.851590180653,crx,46,653,2,hpelmnn,Bagging,4,Majority Voting
+0.977760577915,dermatology,130,358,6,hpelmnn,Bagging,6,Majority Voting
+0.825431235431,crx,46,653,2,hpelmnn,Random Subspace,4,Majority Voting
+0.827712021248,urban_land_cover,147,675,9,hpelmnn,Random Networks,6,Majority Voting
+0.86404210373,crx,46,653,2,hpelmnn,Random Networks,4,Majority Voting
+0.963871689026,dermatology,130,358,6,hpelmnn,Random Subspace,6,Majority Voting
+0.864113490676,crx,46,653,2,hpelmnn,Bagging,4,Arithmetic Mean
+0.829973776224,crx,46,653,2,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.784182625097,urban_land_cover,147,675,9,hpelmnn,Bagging,2,Arithmetic Mean
+0.865510635198,crx,46,653,2,hpelmnn,Random Networks,4,Arithmetic Mean
+0.827056277056,thyroid,5,215,3,hpelmnn,Bagging,4,Majority Voting
+0.720995670996,thyroid,5,215,3,hpelmnn,Random Subspace,4,Majority Voting
+0.832251082251,thyroid,5,215,3,hpelmnn,Random Networks,4,Majority Voting
+0.869480519481,thyroid,5,215,3,hpelmnn,Bagging,4,Arithmetic Mean
+0.762770562771,thyroid,5,215,3,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.864718614719,thyroid,5,215,3,hpelmnn,Random Networks,4,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,6,Majority Voting
+0.813114404287,urban_land_cover,147,675,9,hpelmnn,Random Subspace,8,Majority Voting
+0.821827006149,urban_land_cover,147,675,9,hpelmnn,Bagging,6,Arithmetic Mean
+0.980392156863,dermatology,130,358,6,hpelmnn,Bagging,6,Arithmetic Mean
+0.985947712418,dermatology,130,358,6,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.798857274299,urban_land_cover,147,675,9,hpelmnn,Bagging,4,Majority Voting
+0.8216365377,urban_land_cover,147,675,9,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.805570741101,urban_land_cover,147,675,9,hpelmnn,Random Subspace,4,Majority Voting
+0.983316133471,dermatology,130,358,6,hpelmnn,Random Networks,6,Arithmetic Mean
+0.871617861305,crx,46,653,2,hpelmnn,Bagging,6,Majority Voting
+0.809948280886,crx,46,653,2,hpelmnn,Random Subspace,6,Majority Voting
+0.870032051282,crx,46,653,2,hpelmnn,Random Networks,6,Majority Voting
+0.832051324495,urban_land_cover,147,675,9,hpelmnn,Random Networks,8,Majority Voting
+0.819378055554,urban_land_cover,147,675,9,hpelmnn,Random Networks,4,Majority Voting
+0.867143793706,crx,46,653,2,hpelmnn,Bagging,6,Arithmetic Mean
+0.84659527972,crx,46,653,2,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.830791842998,urban_land_cover,147,675,9,hpelmnn,Random Networks,6,Arithmetic Mean
+0.862432983683,crx,46,653,2,hpelmnn,Random Networks,6,Arithmetic Mean
+0.841341991342,thyroid,5,215,3,hpelmnn,Bagging,6,Majority Voting
+0.716666666667,thyroid,5,215,3,hpelmnn,Random Subspace,6,Majority Voting
+0.841341991342,thyroid,5,215,3,hpelmnn,Random Networks,6,Majority Voting
+0.864718614719,thyroid,5,215,3,hpelmnn,Bagging,6,Arithmetic Mean
+0.753463203463,thyroid,5,215,3,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.864718614719,thyroid,5,215,3,hpelmnn,Random Networks,6,Arithmetic Mean
+0.972187822497,dermatology,130,358,6,hpelmnn,Bagging,8,Majority Voting
+0.974965600275,dermatology,130,358,6,hpelmnn,Random Subspace,8,Majority Voting
+0.833804208401,urban_land_cover,147,675,9,hpelmnn,Bagging,8,Arithmetic Mean
+0.985947712418,dermatology,130,358,6,hpelmnn,Random Networks,8,Majority Voting
+0.814884956668,urban_land_cover,147,675,9,hpelmnn,Bagging,6,Majority Voting
+0.818841881375,urban_land_cover,147,675,9,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.812927588043,urban_land_cover,147,675,9,hpelmnn,Random Subspace,6,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,15,Arithmetic Mean
+0.822841772145,urban_land_cover,147,675,9,hpelmnn,Bagging,12,Majority Voting
+0.975128998968,dermatology,130,358,6,hpelmnn,Bagging,8,Arithmetic Mean
+0.972058823529,dermatology,130,358,6,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.825286878549,urban_land_cover,147,675,9,hpelmnn,Random Subspace,12,Majority Voting
+0.974965600275,dermatology,130,358,6,hpelmnn,Random Networks,8,Arithmetic Mean
+0.839285676351,urban_land_cover,147,675,9,hpelmnn,Random Networks,8,Arithmetic Mean
+0.865368589744,crx,46,653,2,hpelmnn,Bagging,8,Majority Voting
+0.840581293706,crx,46,653,2,hpelmnn,Random Subspace,8,Majority Voting
+0.862432983683,crx,46,653,2,hpelmnn,Random Networks,8,Majority Voting
+0.860941142191,crx,46,653,2,hpelmnn,Bagging,8,Arithmetic Mean
+0.874742132867,crx,46,653,2,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.977614379085,dermatology,130,358,6,hpelmnn,Bagging,12,Majority Voting
+0.867049096737,crx,46,653,2,hpelmnn,Random Networks,8,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,8,Majority Voting
+0.71645021645,thyroid,5,215,3,hpelmnn,Random Subspace,8,Majority Voting
+0.864502164502,thyroid,5,215,3,hpelmnn,Random Networks,8,Majority Voting
+0.840909090909,thyroid,5,215,3,hpelmnn,Bagging,8,Arithmetic Mean
+0.966322669419,dermatology,130,358,6,hpelmnn,Random Subspace,12,Majority Voting
+0.744588744589,thyroid,5,215,3,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.854978354978,thyroid,5,215,3,hpelmnn,Random Networks,8,Arithmetic Mean
+0.833471321623,urban_land_cover,147,675,9,hpelmnn,Random Networks,12,Majority Voting
+0.838086706239,urban_land_cover,147,675,9,hpelmnn,Bagging,15,Majority Voting
+0.980374957,dermatology,130,358,6,hpelmnn,Random Networks,12,Majority Voting
+0.826152990802,urban_land_cover,147,675,9,hpelmnn,Random Subspace,15,Majority Voting
+0.820284963547,urban_land_cover,147,675,9,hpelmnn,Bagging,8,Majority Voting
+0.748917748918,thyroid,5,215,3,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,20,Arithmetic Mean
+0.980374957,dermatology,130,358,6,hpelmnn,Bagging,12,Arithmetic Mean
+0.980684554524,dermatology,130,358,6,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.835229458703,urban_land_cover,147,675,9,hpelmnn,Bagging,12,Arithmetic Mean
+0.833805430898,urban_land_cover,147,675,9,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.974965600275,dermatology,130,358,6,hpelmnn,Random Networks,12,Arithmetic Mean
+0.856300990676,crx,46,653,2,hpelmnn,Bagging,12,Majority Voting
+0.845552156177,crx,46,653,2,hpelmnn,Random Subspace,12,Majority Voting
+0.829170534497,urban_land_cover,147,675,9,hpelmnn,Random Networks,15,Majority Voting
+0.867096445221,crx,46,653,2,hpelmnn,Random Networks,12,Majority Voting
+0.86854020979,crx,46,653,2,hpelmnn,Bagging,12,Arithmetic Mean
+0.860608974359,crx,46,653,2,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.864018793706,crx,46,653,2,hpelmnn,Random Networks,12,Arithmetic Mean
+0.840909090909,thyroid,5,215,3,hpelmnn,Bagging,12,Majority Voting
+0.720995670996,thyroid,5,215,3,hpelmnn,Random Subspace,12,Majority Voting
+0.845670995671,thyroid,5,215,3,hpelmnn,Random Networks,12,Majority Voting
+0.864502164502,thyroid,5,215,3,hpelmnn,Bagging,12,Arithmetic Mean
+0.725757575758,thyroid,5,215,3,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.831989186963,urban_land_cover,147,675,9,hpelmnn,Random Networks,12,Arithmetic Mean
+0.855194805195,thyroid,5,215,3,hpelmnn,Random Networks,12,Arithmetic Mean
+0.828989882526,urban_land_cover,147,675,9,hpelmnn,Bagging,20,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,25,Arithmetic Mean
+0.753246753247,thyroid,5,215,3,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.855194805195,thyroid,5,215,3,hpelmnn,Random Networks,25,Arithmetic Mean
+0.977760577915,dermatology,130,358,6,hpelmnn,Bagging,15,Majority Voting
+0.836583258706,urban_land_cover,147,675,9,hpelmnn,Bagging,15,Arithmetic Mean
+0.836792689268,urban_land_cover,147,675,9,hpelmnn,Random Subspace,20,Majority Voting
+0.966632266942,dermatology,130,358,6,hpelmnn,Random Subspace,15,Majority Voting
+0.830350765709,urban_land_cover,147,675,9,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.983316133471,dermatology,130,358,6,hpelmnn,Random Networks,15,Majority Voting
+0.977906776746,dermatology,130,358,6,hpelmnn,Bagging,15,Arithmetic Mean
+0.980374957,dermatology,130,358,6,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.835039061395,urban_land_cover,147,675,9,hpelmnn,Random Networks,15,Arithmetic Mean
+0.831927049432,urban_land_cover,147,675,9,hpelmnn,Random Networks,20,Majority Voting
+0.843771050132,urban_land_cover,147,675,9,hpelmnn,Bagging,25,Majority Voting
+0.983316133471,dermatology,130,358,6,hpelmnn,Random Networks,15,Arithmetic Mean
+0.865486596737,crx,46,653,2,hpelmnn,Bagging,15,Majority Voting
+0.851684877622,crx,46,653,2,hpelmnn,Random Subspace,15,Majority Voting
+0.977906776746,dermatology,130,358,6,hpelmnn,Bagging,20,Majority Voting
+0.864042832168,crx,46,653,2,hpelmnn,Random Networks,15,Majority Voting
+0.830550804554,urban_land_cover,147,675,9,hpelmnn,Random Subspace,25,Majority Voting
+0.864042832168,crx,46,653,2,hpelmnn,Bagging,15,Arithmetic Mean
+0.865320512821,crx,46,653,2,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.985784313725,dermatology,130,358,6,hpelmnn,Random Subspace,20,Majority Voting
+0.867049096737,crx,46,653,2,hpelmnn,Random Networks,15,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,15,Majority Voting
+0.720995670996,thyroid,5,215,3,hpelmnn,Random Subspace,15,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,15,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,15,Arithmetic Mean
+0.734848484848,thyroid,5,215,3,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.854978354978,thyroid,5,215,3,hpelmnn,Random Networks,30,Majority Voting
+0.841083415592,urban_land_cover,147,675,9,hpelmnn,Bagging,20,Arithmetic Mean
+0.977906776746,dermatology,130,358,6,hpelmnn,Random Networks,20,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,30,Arithmetic Mean
+0.725541125541,thyroid,5,215,3,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.855194805195,thyroid,5,215,3,hpelmnn,Random Networks,30,Arithmetic Mean
+0.823431539903,urban_land_cover,147,675,9,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.974965600275,dermatology,130,358,6,hpelmnn,Bagging,20,Arithmetic Mean
+0.980374957,dermatology,130,358,6,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.834912985245,urban_land_cover,147,675,9,hpelmnn,Random Networks,25,Majority Voting
+0.980374957,dermatology,130,358,6,hpelmnn,Random Networks,20,Arithmetic Mean
+0.862480332168,crx,46,653,2,hpelmnn,Bagging,20,Majority Voting
+0.84088632545,urban_land_cover,147,675,9,hpelmnn,Random Networks,20,Arithmetic Mean
+0.839089452214,crx,46,653,2,hpelmnn,Random Subspace,20,Majority Voting
+0.868611596737,crx,46,653,2,hpelmnn,Random Networks,20,Majority Voting
+0.865533945221,crx,46,653,2,hpelmnn,Bagging,20,Arithmetic Mean
+0.842490330643,urban_land_cover,147,675,9,hpelmnn,Bagging,30,Majority Voting
+0.859117861305,crx,46,653,2,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Bagging,25,Majority Voting
+0.870126748252,crx,46,653,2,hpelmnn,Random Networks,20,Arithmetic Mean
+0.859956709957,thyroid,5,215,3,hpelmnn,Bagging,20,Majority Voting
+0.698051948052,thyroid,5,215,3,hpelmnn,Random Subspace,20,Majority Voting
+0.843921101312,urban_land_cover,147,675,9,hpelmnn,Bagging,25,Arithmetic Mean
+0.850649350649,thyroid,5,215,3,hpelmnn,Random Networks,20,Majority Voting
+0.983152734778,dermatology,130,358,6,hpelmnn,Random Subspace,25,Majority Voting
+0.854978354978,thyroid,5,215,3,hpelmnn,Bagging,20,Arithmetic Mean
+0.702597402597,thyroid,5,215,3,hpelmnn,Random Subspace,40,Majority Voting
+0.827973240563,urban_land_cover,147,675,9,hpelmnn,Random Subspace,30,Majority Voting
+0.855194805195,thyroid,5,215,3,hpelmnn,Random Networks,40,Majority Voting
+0.855194805195,thyroid,5,215,3,hpelmnn,Bagging,40,Arithmetic Mean
+0.833963018938,urban_land_cover,147,675,9,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.744588744589,thyroid,5,215,3,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.859956709957,thyroid,5,215,3,hpelmnn,Random Networks,40,Arithmetic Mean
+0.983316133471,dermatology,130,358,6,hpelmnn,Random Networks,25,Majority Voting
+0.983316133471,dermatology,130,358,6,hpelmnn,Bagging,25,Arithmetic Mean
+0.980684554524,dermatology,130,358,6,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.846903152471,urban_land_cover,147,675,9,hpelmnn,Random Networks,25,Arithmetic Mean
+0.839182714162,urban_land_cover,147,675,9,hpelmnn,Random Networks,30,Majority Voting
+0.983316133471,dermatology,130,358,6,hpelmnn,Random Networks,25,Arithmetic Mean
+0.866907051282,crx,46,653,2,hpelmnn,Bagging,25,Majority Voting
+0.843800990676,crx,46,653,2,hpelmnn,Random Subspace,25,Majority Voting
+0.977906776746,dermatology,130,358,6,hpelmnn,Bagging,30,Majority Voting
+0.870126748252,crx,46,653,2,hpelmnn,Random Networks,25,Majority Voting
+0.974965600275,dermatology,130,358,6,hpelmnn,Random Subspace,30,Majority Voting
+0.865486596737,crx,46,653,2,hpelmnn,Bagging,25,Arithmetic Mean
+0.839681973187,urban_land_cover,147,675,9,hpelmnn,Bagging,40,Majority Voting
+0.854430361305,crx,46,653,2,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.862456293706,crx,46,653,2,hpelmnn,Random Networks,25,Arithmetic Mean
+0.855194805195,thyroid,5,215,3,hpelmnn,Bagging,25,Majority Voting
+0.725541125541,thyroid,5,215,3,hpelmnn,Random Subspace,25,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,25,Majority Voting
+0.864502164502,thyroid,5,215,3,hpelmnn,Bagging,50,Majority Voting
+0.842311958291,urban_land_cover,147,675,9,hpelmnn,Bagging,30,Arithmetic Mean
+0.977597179223,dermatology,130,358,6,hpelmnn,Random Networks,30,Majority Voting
+0.835063830422,urban_land_cover,147,675,9,hpelmnn,Random Subspace,40,Majority Voting
+0.720995670996,thyroid,5,215,3,hpelmnn,Random Subspace,50,Majority Voting
+0.854978354978,thyroid,5,215,3,hpelmnn,Random Networks,50,Majority Voting
+0.859956709957,thyroid,5,215,3,hpelmnn,Bagging,50,Arithmetic Mean
+0.835201856647,urban_land_cover,147,675,9,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.735064935065,thyroid,5,215,3,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.855194805195,thyroid,5,215,3,hpelmnn,Random Networks,50,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Bagging,30,Arithmetic Mean
+0.977597179223,dermatology,130,358,6,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,30,Arithmetic Mean
+0.862290938228,crx,46,653,2,hpelmnn,Bagging,30,Majority Voting
+0.843783125117,urban_land_cover,147,675,9,hpelmnn,Random Networks,30,Arithmetic Mean
+0.853057255245,crx,46,653,2,hpelmnn,Random Subspace,30,Majority Voting
+0.83498894882,urban_land_cover,147,675,9,hpelmnn,Random Networks,40,Majority Voting
+0.860870483683,crx,46,653,2,hpelmnn,Random Networks,30,Majority Voting
+0.871571241259,crx,46,653,2,hpelmnn,Bagging,30,Arithmetic Mean
+0.871404428904,crx,46,653,2,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.974819401445,dermatology,130,358,6,hpelmnn,Bagging,40,Majority Voting
+0.865463286713,crx,46,653,2,hpelmnn,Random Networks,30,Arithmetic Mean
+0.859956709957,thyroid,5,215,3,hpelmnn,Bagging,30,Majority Voting
+0.711904761905,thyroid,5,215,3,hpelmnn,Random Subspace,30,Majority Voting
+0.848641174324,urban_land_cover,147,675,9,hpelmnn,Bagging,50,Majority Voting
+0.980374957,dermatology,130,358,6,hpelmnn,Random Subspace,40,Majority Voting
+0.867001748252,crx,46,653,2,hpelmnn,Random Networks,60,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,60,Majority Voting
+0.707142857143,thyroid,5,215,3,hpelmnn,Random Subspace,60,Majority Voting
+0.859956709957,thyroid,5,215,3,hpelmnn,Random Networks,60,Majority Voting
+0.836868577962,urban_land_cover,147,675,9,hpelmnn,Random Subspace,50,Majority Voting
+0.84833860179,urban_land_cover,147,675,9,hpelmnn,Bagging,40,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,60,Arithmetic Mean
+0.983316133471,dermatology,130,358,6,hpelmnn,Random Networks,40,Majority Voting
+0.75367965368,thyroid,5,215,3,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,60,Arithmetic Mean
+0.839570467046,urban_land_cover,147,675,9,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.977597179223,dermatology,130,358,6,hpelmnn,Bagging,40,Arithmetic Mean
+0.977597179223,dermatology,130,358,6,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,40,Arithmetic Mean
+0.864018793706,crx,46,653,2,hpelmnn,Bagging,40,Majority Voting
+0.837916349277,urban_land_cover,147,675,9,hpelmnn,Random Networks,50,Majority Voting
+0.859283216783,crx,46,653,2,hpelmnn,Random Subspace,40,Majority Voting
+0.849760349977,urban_land_cover,147,675,9,hpelmnn,Random Networks,40,Arithmetic Mean
+0.863948135198,crx,46,653,2,hpelmnn,Random Networks,40,Majority Voting
+0.868516899767,crx,46,653,2,hpelmnn,Bagging,40,Arithmetic Mean
+0.83958482165,urban_land_cover,147,675,9,hpelmnn,Bagging,60,Majority Voting
+0.868373397436,crx,46,653,2,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.867025786713,crx,46,653,2,hpelmnn,Random Networks,40,Arithmetic Mean
+0.854978354978,thyroid,5,215,3,hpelmnn,Bagging,40,Majority Voting
+0.977597179223,dermatology,130,358,6,hpelmnn,Bagging,50,Majority Voting
+0.862313519814,crx,46,653,2,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.980701754386,dermatology,130,358,6,hpelmnn,Random Subspace,50,Majority Voting
+0.832233153,urban_land_cover,147,675,9,hpelmnn,Random Subspace,60,Majority Voting
+0.867001748252,crx,46,653,2,hpelmnn,Random Networks,70,Arithmetic Mean
+0.855194805195,thyroid,5,215,3,hpelmnn,Bagging,70,Majority Voting
+0.707359307359,thyroid,5,215,3,hpelmnn,Random Subspace,70,Majority Voting
+0.842395937256,urban_land_cover,147,675,9,hpelmnn,Bagging,50,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,70,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Bagging,70,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,50,Majority Voting
+0.734848484848,thyroid,5,215,3,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.859956709957,thyroid,5,215,3,hpelmnn,Random Networks,70,Arithmetic Mean
+0.836513105784,urban_land_cover,147,675,9,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Bagging,50,Arithmetic Mean
+0.986093911249,dermatology,130,358,6,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.849665353148,urban_land_cover,147,675,9,hpelmnn,Random Networks,60,Majority Voting
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,50,Arithmetic Mean
+0.846743813373,urban_land_cover,147,675,9,hpelmnn,Random Networks,50,Arithmetic Mean
+0.868635635198,crx,46,653,2,hpelmnn,Bagging,50,Majority Voting
+0.869818618881,crx,46,653,2,hpelmnn,Random Subspace,50,Majority Voting
+0.865415938228,crx,46,653,2,hpelmnn,Random Networks,50,Majority Voting
+0.835134511905,urban_land_cover,147,675,9,hpelmnn,Bagging,70,Majority Voting
+0.862361596737,crx,46,653,2,hpelmnn,Bagging,50,Arithmetic Mean
+0.856086829837,crx,46,653,2,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Bagging,60,Majority Voting
+0.868564248252,crx,46,653,2,hpelmnn,Random Networks,50,Arithmetic Mean
+0.98022875817,dermatology,130,358,6,hpelmnn,Random Subspace,60,Majority Voting
+0.842477561722,urban_land_cover,147,675,9,hpelmnn,Bagging,60,Arithmetic Mean
+0.835353180354,urban_land_cover,147,675,9,hpelmnn,Random Subspace,70,Majority Voting
+0.865463286713,crx,46,653,2,hpelmnn,Bagging,100,Arithmetic Mean
+0.856110868298,crx,46,653,2,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.832262431234,urban_land_cover,147,675,9,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,60,Majority Voting
+0.865533945221,crx,46,653,2,hpelmnn,Random Networks,100,Arithmetic Mean
+0.855194805195,thyroid,5,215,3,hpelmnn,Bagging,100,Majority Voting
+0.711904761905,thyroid,5,215,3,hpelmnn,Random Subspace,100,Majority Voting
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,100,Majority Voting
+0.980538355693,dermatology,130,358,6,hpelmnn,Bagging,60,Arithmetic Mean
+0.859956709957,thyroid,5,215,3,hpelmnn,Bagging,100,Arithmetic Mean
+0.735281385281,thyroid,5,215,3,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.983316133471,dermatology,130,358,6,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.850432900433,thyroid,5,215,3,hpelmnn,Random Networks,100,Arithmetic Mean
+0.843701425771,urban_land_cover,147,675,9,hpelmnn,Random Networks,70,Majority Voting
+0.846642602242,urban_land_cover,147,675,9,hpelmnn,Random Networks,60,Arithmetic Mean
+0.980374957,dermatology,130,358,6,hpelmnn,Random Networks,60,Arithmetic Mean
+0.863971445221,crx,46,653,2,hpelmnn,Bagging,60,Majority Voting
+0.856110868298,crx,46,653,2,hpelmnn,Random Subspace,60,Majority Voting
+0.977906776746,dermatology,130,358,6,hpelmnn,Bagging,70,Majority Voting
+0.870126748252,crx,46,653,2,hpelmnn,Random Networks,60,Majority Voting
+0.865463286713,crx,46,653,2,hpelmnn,Bagging,60,Arithmetic Mean
+0.983625730994,dermatology,130,358,6,hpelmnn,Random Subspace,70,Majority Voting
+0.866858974359,crx,46,653,2,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.839322998894,urban_land_cover,147,675,9,hpelmnn,Bagging,70,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,70,Majority Voting
+0.839326501009,urban_land_cover,147,675,9,hpelmnn,Bagging,100,Majority Voting
+0.83206807813,urban_land_cover,147,675,9,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Bagging,70,Arithmetic Mean
+0.833476528834,urban_land_cover,147,675,9,hpelmnn,Random Subspace,100,Majority Voting
+0.986093911249,dermatology,130,358,6,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,70,Arithmetic Mean
+0.84694918434,urban_land_cover,147,675,9,hpelmnn,Random Networks,70,Arithmetic Mean
+0.863948135198,crx,46,653,2,hpelmnn,Bagging,70,Majority Voting
+0.860870483683,crx,46,653,2,hpelmnn,Random Subspace,70,Majority Voting
+0.865486596737,crx,46,653,2,hpelmnn,Random Networks,70,Majority Voting
+0.862480332168,crx,46,653,2,hpelmnn,Bagging,70,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Bagging,100,Majority Voting
+0.845362411314,urban_land_cover,147,675,9,hpelmnn,Random Networks,100,Majority Voting
+0.97743378053,dermatology,130,358,6,hpelmnn,Random Subspace,100,Majority Voting
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,100,Majority Voting
+0.977906776746,dermatology,130,358,6,hpelmnn,Bagging,100,Arithmetic Mean
+0.839565259835,urban_land_cover,147,675,9,hpelmnn,Bagging,100,Arithmetic Mean
+0.977597179223,dermatology,130,358,6,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.829305802573,urban_land_cover,147,675,9,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.980538355693,dermatology,130,358,6,hpelmnn,Random Networks,100,Arithmetic Mean
+0.865486596737,crx,46,653,2,hpelmnn,Bagging,100,Majority Voting
+0.857555361305,crx,46,653,2,hpelmnn,Random Subspace,100,Majority Voting
+0.870079399767,crx,46,653,2,hpelmnn,Random Networks,100,Majority Voting
+0.848439334391,urban_land_cover,147,675,9,hpelmnn,Random Networks,100,Arithmetic Mean
+0.678505747126,breast_cancer,43,286,2,hpelmnn,Bagging,1,Majority Voting
+0.720615763547,breast_cancer,43,286,2,hpelmnn,Bagging,2,Majority Voting
+0.711469622332,breast_cancer,43,286,2,hpelmnn,Random Subspace,1,Majority Voting
+0.709540229885,breast_cancer,43,286,2,hpelmnn,Random Subspace,2,Majority Voting
+0.699663382594,breast_cancer,43,286,2,hpelmnn,Random Networks,1,Majority Voting
+0.689310344828,breast_cancer,43,286,2,hpelmnn,Bagging,4,Majority Voting
+0.720607553366,breast_cancer,43,286,2,hpelmnn,Bagging,6,Majority Voting
+0.665279146141,breast_cancer,43,286,2,hpelmnn,Bagging,1,Arithmetic Mean
+0.727266009852,breast_cancer,43,286,2,hpelmnn,Random Networks,2,Majority Voting
+0.67552545156,breast_cancer,43,286,2,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.699671592775,breast_cancer,43,286,2,hpelmnn,Random Networks,1,Arithmetic Mean
+0.703013136289,breast_cancer,43,286,2,hpelmnn,Random Subspace,4,Majority Voting
+0.7139408867,breast_cancer,43,286,2,hpelmnn,Bagging,2,Arithmetic Mean
+0.734540229885,breast_cancer,43,286,2,hpelmnn,Random Subspace,6,Majority Voting
+0.713702791461,breast_cancer,43,286,2,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.699909688013,breast_cancer,43,286,2,hpelmnn,Random Networks,2,Arithmetic Mean
+0.706806239737,breast_cancer,43,286,2,hpelmnn,Random Networks,4,Majority Voting
+0.709523809524,breast_cancer,43,286,2,hpelmnn,Bagging,8,Majority Voting
+0.720246305419,breast_cancer,43,286,2,hpelmnn,Random Networks,6,Majority Voting
+0.670615763547,breast_cancer,43,286,2,hpelmnn,Bagging,4,Arithmetic Mean
+0.734646962233,breast_cancer,43,286,2,hpelmnn,Random Subspace,8,Majority Voting
+0.688596059113,breast_cancer,43,286,2,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.716798029557,breast_cancer,43,286,2,hpelmnn,Bagging,6,Arithmetic Mean
+0.724055829228,breast_cancer,43,286,2,hpelmnn,Bagging,12,Majority Voting
+0.713234811166,breast_cancer,43,286,2,hpelmnn,Random Networks,4,Arithmetic Mean
+0.713957307061,breast_cancer,43,286,2,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.710246305419,breast_cancer,43,286,2,hpelmnn,Random Networks,8,Majority Voting
+0.724072249589,breast_cancer,43,286,2,hpelmnn,Random Subspace,12,Majority Voting
+0.723702791461,breast_cancer,43,286,2,hpelmnn,Random Networks,6,Arithmetic Mean
+0.724532019704,breast_cancer,43,286,2,hpelmnn,Bagging,8,Arithmetic Mean
+0.741896551724,breast_cancer,43,286,2,hpelmnn,Bagging,15,Majority Voting
+0.716568144499,breast_cancer,43,286,2,hpelmnn,Random Networks,12,Majority Voting
+0.692775041051,breast_cancer,43,286,2,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.720492610837,breast_cancer,43,286,2,hpelmnn,Random Networks,8,Arithmetic Mean
+0.720254515599,breast_cancer,43,286,2,hpelmnn,Random Subspace,15,Majority Voting
+0.699909688013,breast_cancer,43,286,2,hpelmnn,Bagging,12,Arithmetic Mean
+0.720484400657,breast_cancer,43,286,2,hpelmnn,Bagging,20,Majority Voting
+0.717167487685,breast_cancer,43,286,2,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.744515599343,breast_cancer,43,286,2,hpelmnn,Random Networks,15,Majority Voting
+0.713596059113,breast_cancer,43,286,2,hpelmnn,Random Subspace,20,Majority Voting
+0.699540229885,breast_cancer,43,286,2,hpelmnn,Random Networks,12,Arithmetic Mean
+0.705853858785,breast_cancer,43,286,2,hpelmnn,Bagging,25,Majority Voting
+0.730968801314,breast_cancer,43,286,2,hpelmnn,Bagging,15,Arithmetic Mean
+0.717282430213,breast_cancer,43,286,2,hpelmnn,Random Networks,20,Majority Voting
+0.710024630542,breast_cancer,43,286,2,hpelmnn,Random Subspace,25,Majority Voting
+0.727151067323,breast_cancer,43,286,2,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.695870279146,breast_cancer,43,286,2,hpelmnn,Bagging,30,Majority Voting
+0.717282430213,breast_cancer,43,286,2,hpelmnn,Bagging,20,Arithmetic Mean
+0.727142857143,breast_cancer,43,286,2,hpelmnn,Random Networks,15,Arithmetic Mean
+0.706330049261,breast_cancer,43,286,2,hpelmnn,Random Networks,25,Majority Voting
+0.731083743842,breast_cancer,43,286,2,hpelmnn,Random Subspace,30,Majority Voting
+0.70288998358,breast_cancer,43,286,2,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.706206896552,breast_cancer,43,286,2,hpelmnn,Bagging,25,Arithmetic Mean
+0.702881773399,breast_cancer,43,286,2,hpelmnn,Random Networks,20,Arithmetic Mean
+0.702873563218,breast_cancer,43,286,2,hpelmnn,Bagging,40,Majority Voting
+0.720369458128,breast_cancer,43,286,2,hpelmnn,Random Networks,30,Majority Voting
+0.70657635468,breast_cancer,43,286,2,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.727643678161,breast_cancer,43,286,2,hpelmnn,Random Subspace,40,Majority Voting
+0.713226600985,breast_cancer,43,286,2,hpelmnn,Bagging,30,Arithmetic Mean
+0.7239408867,breast_cancer,43,286,2,hpelmnn,Random Networks,25,Arithmetic Mean
+0.713226600985,breast_cancer,43,286,2,hpelmnn,Bagging,50,Majority Voting
+0.710024630542,breast_cancer,43,286,2,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.709655172414,breast_cancer,43,286,2,hpelmnn,Random Networks,40,Majority Voting
+0.727380952381,breast_cancer,43,286,2,hpelmnn,Random Networks,30,Arithmetic Mean
+0.723711001642,breast_cancer,43,286,2,hpelmnn,Random Subspace,50,Majority Voting
+0.717159277504,breast_cancer,43,286,2,hpelmnn,Bagging,60,Majority Voting
+0.734523809524,breast_cancer,43,286,2,hpelmnn,Bagging,40,Arithmetic Mean
+0.720246305419,breast_cancer,43,286,2,hpelmnn,Random Networks,50,Majority Voting
+0.720377668309,breast_cancer,43,286,2,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.717044334975,breast_cancer,43,286,2,hpelmnn,Random Subspace,60,Majority Voting
+0.702996715928,breast_cancer,43,286,2,hpelmnn,Bagging,70,Majority Voting
+0.713341543514,breast_cancer,43,286,2,hpelmnn,Random Networks,40,Arithmetic Mean
+0.709786535304,breast_cancer,43,286,2,hpelmnn,Bagging,50,Arithmetic Mean
+0.720369458128,breast_cancer,43,286,2,hpelmnn,Random Subspace,70,Majority Voting
+0.709778325123,breast_cancer,43,286,2,hpelmnn,Random Networks,60,Majority Voting
+0.7239408867,breast_cancer,43,286,2,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.70632183908,breast_cancer,43,286,2,hpelmnn,Random Networks,50,Arithmetic Mean
+0.713596059113,breast_cancer,43,286,2,hpelmnn,Bagging,60,Arithmetic Mean
+0.716912972085,breast_cancer,43,286,2,hpelmnn,Random Networks,70,Majority Voting
+0.720369458128,breast_cancer,43,286,2,hpelmnn,Bagging,100,Majority Voting
+0.7239408867,breast_cancer,43,286,2,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.734408866995,breast_cancer,43,286,2,hpelmnn,Bagging,70,Arithmetic Mean
+0.713472906404,breast_cancer,43,286,2,hpelmnn,Random Subspace,100,Majority Voting
+0.723579638752,breast_cancer,43,286,2,hpelmnn,Random Networks,60,Arithmetic Mean
+0.730722495895,breast_cancer,43,286,2,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.710024630542,breast_cancer,43,286,2,hpelmnn,Random Networks,100,Majority Voting
+0.720254515599,breast_cancer,43,286,2,hpelmnn,Random Networks,70,Arithmetic Mean
+0.713218390805,breast_cancer,43,286,2,hpelmnn,Bagging,100,Arithmetic Mean
+0.710024630542,breast_cancer,43,286,2,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.713111658456,breast_cancer,43,286,2,hpelmnn,Random Networks,100,Arithmetic Mean
+0.545762221834,yeast,11,1479,9,hpelmnn,Bagging,1,Majority Voting
+0.563224519838,yeast,11,1479,9,hpelmnn,Bagging,2,Majority Voting
+0.424042922799,yeast,11,1479,9,hpelmnn,Random Subspace,1,Majority Voting
+0.557823337245,yeast,11,1479,9,hpelmnn,Random Networks,1,Majority Voting
+0.564594394364,yeast,11,1479,9,hpelmnn,Bagging,4,Majority Voting
+0.418931681325,yeast,11,1479,9,hpelmnn,Random Subspace,2,Majority Voting
+0.555714329971,yeast,11,1479,9,hpelmnn,Bagging,1,Arithmetic Mean
+0.440123099518,yeast,11,1479,9,hpelmnn,Random Subspace,1,Arithmetic Mean
+0.555047468,yeast,11,1479,9,hpelmnn,Random Networks,1,Arithmetic Mean
+0.557855575606,yeast,11,1479,9,hpelmnn,Random Networks,2,Majority Voting
+0.563202559798,yeast,11,1479,9,hpelmnn,Bagging,6,Majority Voting
+0.436165891156,yeast,11,1479,9,hpelmnn,Random Subspace,4,Majority Voting
+0.555159427634,yeast,11,1479,9,hpelmnn,Bagging,2,Arithmetic Mean
+0.475583379536,yeast,11,1479,9,hpelmnn,Random Subspace,2,Arithmetic Mean
+0.416476722935,yeast,11,1479,9,hpelmnn,Random Subspace,6,Majority Voting
+0.559133100834,yeast,11,1479,9,hpelmnn,Random Networks,4,Majority Voting
+0.556517299084,yeast,11,1479,9,hpelmnn,Random Networks,2,Arithmetic Mean
+0.559105999796,yeast,11,1479,9,hpelmnn,Bagging,8,Majority Voting
+0.565301854997,yeast,11,1479,9,hpelmnn,Random Networks,6,Majority Voting
+0.564626974277,yeast,11,1479,9,hpelmnn,Bagging,4,Arithmetic Mean
+0.4848856083,yeast,11,1479,9,hpelmnn,Random Subspace,4,Arithmetic Mean
+0.429361306943,yeast,11,1479,9,hpelmnn,Random Subspace,8,Majority Voting
+0.564617719749,yeast,11,1479,9,hpelmnn,Bagging,6,Arithmetic Mean
+0.561886276545,yeast,11,1479,9,hpelmnn,Random Networks,4,Arithmetic Mean
+0.56459399808,yeast,11,1479,9,hpelmnn,Bagging,12,Majority Voting
+0.514725860219,yeast,11,1479,9,hpelmnn,Random Subspace,6,Arithmetic Mean
+0.562512221048,yeast,11,1479,9,hpelmnn,Random Networks,8,Majority Voting
+0.568568231498,yeast,11,1479,9,hpelmnn,Random Networks,6,Arithmetic Mean
+0.480477472077,yeast,11,1479,9,hpelmnn,Random Subspace,12,Majority Voting
+0.571941857651,yeast,11,1479,9,hpelmnn,Bagging,8,Arithmetic Mean
+0.566576766549,yeast,11,1479,9,hpelmnn,Bagging,15,Majority Voting
+0.501111302598,yeast,11,1479,9,hpelmnn,Random Subspace,8,Arithmetic Mean
+0.560494644791,yeast,11,1479,9,hpelmnn,Random Networks,12,Majority Voting
+0.565891883455,yeast,11,1479,9,hpelmnn,Bagging,20,Majority Voting
+0.564589900403,yeast,11,1479,9,hpelmnn,Random Networks,8,Arithmetic Mean
+0.565864683419,yeast,11,1479,9,hpelmnn,Bagging,12,Arithmetic Mean
+0.469469702533,yeast,11,1479,9,hpelmnn,Random Subspace,15,Majority Voting
+0.484430926977,yeast,11,1479,9,hpelmnn,Random Subspace,12,Arithmetic Mean
+0.454837274249,yeast,11,1479,9,hpelmnn,Random Subspace,20,Majority Voting
+0.561224024889,yeast,11,1479,9,hpelmnn,Random Networks,15,Majority Voting
+0.56996876839,yeast,11,1479,9,hpelmnn,Random Networks,12,Arithmetic Mean
+0.569959480651,yeast,11,1479,9,hpelmnn,Bagging,25,Majority Voting
+0.567229254711,yeast,11,1479,9,hpelmnn,Bagging,15,Arithmetic Mean
+0.565238777321,yeast,11,1479,9,hpelmnn,Random Networks,20,Majority Voting
+0.463125052525,yeast,11,1479,9,hpelmnn,Random Subspace,25,Majority Voting
+0.492667845515,yeast,11,1479,9,hpelmnn,Random Subspace,15,Arithmetic Mean
+0.561917909948,yeast,11,1479,9,hpelmnn,Bagging,30,Majority Voting
+0.563959522533,yeast,11,1479,9,hpelmnn,Bagging,20,Arithmetic Mean
+0.567981822123,yeast,11,1479,9,hpelmnn,Random Networks,15,Arithmetic Mean
+0.562539737915,yeast,11,1479,9,hpelmnn,Random Networks,25,Majority Voting
+0.500362743874,yeast,11,1479,9,hpelmnn,Random Subspace,20,Arithmetic Mean
+0.477484650597,yeast,11,1479,9,hpelmnn,Random Subspace,30,Majority Voting
+0.567325205244,yeast,11,1479,9,hpelmnn,Random Networks,20,Arithmetic Mean
+0.569338755096,yeast,11,1479,9,hpelmnn,Bagging,25,Arithmetic Mean
+0.566544941845,yeast,11,1479,9,hpelmnn,Bagging,40,Majority Voting
+0.564630710384,yeast,11,1479,9,hpelmnn,Random Networks,30,Majority Voting
+0.524080071041,yeast,11,1479,9,hpelmnn,Random Subspace,25,Arithmetic Mean
+0.459282289022,yeast,11,1479,9,hpelmnn,Random Subspace,40,Majority Voting
+0.569342733087,yeast,11,1479,9,hpelmnn,Bagging,30,Arithmetic Mean
+0.568699612803,yeast,11,1479,9,hpelmnn,Random Networks,25,Arithmetic Mean
+0.565968463571,yeast,11,1479,9,hpelmnn,Bagging,50,Majority Voting
+0.490718214338,yeast,11,1479,9,hpelmnn,Random Subspace,30,Arithmetic Mean
+0.567909603268,yeast,11,1479,9,hpelmnn,Random Networks,40,Majority Voting
+0.482161968202,yeast,11,1479,9,hpelmnn,Random Subspace,50,Majority Voting
+0.569946375164,yeast,11,1479,9,hpelmnn,Random Networks,30,Arithmetic Mean
+0.56727518247,yeast,11,1479,9,hpelmnn,Bagging,60,Majority Voting
+0.570042680932,yeast,11,1479,9,hpelmnn,Bagging,40,Arithmetic Mean
+0.565247539572,yeast,11,1479,9,hpelmnn,Random Networks,50,Majority Voting
+0.504426234886,yeast,11,1479,9,hpelmnn,Random Subspace,40,Arithmetic Mean
+0.469497006873,yeast,11,1479,9,hpelmnn,Random Subspace,60,Majority Voting
+0.570631864718,yeast,11,1479,9,hpelmnn,Bagging,70,Majority Voting
+0.567269180946,yeast,11,1479,9,hpelmnn,Random Networks,40,Arithmetic Mean
+0.572713393529,yeast,11,1479,9,hpelmnn,Bagging,50,Arithmetic Mean
+0.568594659636,yeast,11,1479,9,hpelmnn,Random Networks,60,Majority Voting
+0.474992988033,yeast,11,1479,9,hpelmnn,Random Subspace,70,Majority Voting
+0.501214268105,yeast,11,1479,9,hpelmnn,Random Subspace,50,Arithmetic Mean
+0.569941842799,yeast,11,1479,9,hpelmnn,Bagging,60,Arithmetic Mean
+0.568599685781,yeast,11,1479,9,hpelmnn,Bagging,100,Majority Voting
+0.570001359815,yeast,11,1479,9,hpelmnn,Random Networks,50,Arithmetic Mean
+0.570009896035,yeast,11,1479,9,hpelmnn,Random Networks,70,Majority Voting
+0.518001432827,yeast,11,1479,9,hpelmnn,Random Subspace,60,Arithmetic Mean
+0.571991977921,yeast,11,1479,9,hpelmnn,Bagging,70,Arithmetic Mean
+0.475189472717,yeast,11,1479,9,hpelmnn,Random Subspace,100,Majority Voting
+0.565950312412,yeast,11,1479,9,hpelmnn,Random Networks,60,Arithmetic Mean
+0.515968661112,yeast,11,1479,9,hpelmnn,Random Subspace,70,Arithmetic Mean
+0.565950136965,yeast,11,1479,9,hpelmnn,Random Networks,100,Majority Voting
+0.56927488116,yeast,11,1479,9,hpelmnn,Random Networks,70,Arithmetic Mean
+0.567959444751,yeast,11,1479,9,hpelmnn,Bagging,100,Arithmetic Mean
+0.515376082103,yeast,11,1479,9,hpelmnn,Random Subspace,100,Arithmetic Mean
+0.568644743004,yeast,11,1479,9,hpelmnn,Random Networks,100,Arithmetic Mean
