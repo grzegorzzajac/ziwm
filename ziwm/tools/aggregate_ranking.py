@@ -25,7 +25,7 @@ def load_data(dir_path):
     return results_data
 
 
-def calculate_rank(results_data):
+def calculate_rank(results_data, alternative_format):
     # header = results_data[0]
 
     sizes = np.unique(results_data[1:, 7]).astype(int)
@@ -54,15 +54,27 @@ def calculate_rank(results_data):
     # score,dataset,feature_count,dataset_size,number_of_classes,model,ensemble,ensemble_size,voting_system
 
     array_data = []
-    for size in rank_data.keys():
+    header = None
+    for size in sizes:
         items = []
         for k in rank_data[size].keys():
             row = [size] + list(k) + [rank_data[size][k]]
             items.append(row)
 
         items = [item + [i+1] for i, item in enumerate(sorted(items, key=lambda x: x[4]))]
-        array_data += items
-    return array_data, "ensemble_size,model,ensemble,voting_system,aggregated_rank,total_rank"
+
+        if alternative_format:
+            sorted_items = sorted(items, key=lambda x: ' '.join(x[1:4]))
+            items = [size] + [item[5] for item in sorted_items]
+            array_data.append(items)
+
+            if header is None:
+                header = ','.join(["ensemble_size"] + [' '.join(item[1:4]) for item in sorted_items])
+
+        else:
+            array_data += items
+
+    return array_data, header if header is not None else "ensemble_size,model,ensemble,voting_system,aggregated_rank,total_rank"
 
 
 def main(argv=None):
@@ -76,6 +88,7 @@ def main(argv=None):
     parser = ArgumentParser(description='Aggregate individual scores into a global rank')
     parser.add_argument("results_path", help="Path to directory with results data.")
     parser.add_argument("output_filename", help="Filename under which output ranking data will be saved")
+    parser.add_argument("-a", "--alternative", help="Change format to graph-friendly.", action="store_true")
 
     # Process arguments
     args = parser.parse_args()
@@ -86,7 +99,7 @@ def main(argv=None):
     # Load data and calculate ranks
     results_data = load_data(results_path)
 
-    rank_data, header = calculate_rank(results_data)
+    rank_data, header = calculate_rank(results_data, args.alternative)
 
     # Save the data
     np.savetxt(output_filename, rank_data, header=header, fmt='%s', delimiter=',')
